@@ -1,13 +1,23 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "b704c19c8844bea87a71c3c9fdf65739",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -1875,14 +1885,16 @@
       "siteMetadata": {
         "siteUrl": "http://bolhasocial.com"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-08-19T16:22:16.709Z",
+      "buildTime": "2018-08-19T18:05:50.564Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d126732a596737f409a09d0356b6a781",
+        "contentDigest": "edb78bc7e01a256c753678a896bb76a0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1892,7 +1904,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f633340458b56c9f6b4f5e76295a29d6",
+        "contentDigest": "c8422a069f0cb199e8c64660a70661d0",
         "type": "Directory",
         "description": "Directory \"content/projects\"",
         "owner": "gatsby-source-filesystem"
@@ -1904,7 +1916,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2018-08-19T09:47:37.389Z",
-      "accessTime": "2018-08-19T16:22:21.051Z",
+      "accessTime": "2018-08-19T18:05:54.681Z",
       "changeTime": "2018-08-19T09:47:37.389Z",
       "birthTime": "2018-08-19T09:47:37.381Z",
       "root": "/",
@@ -1922,11 +1934,11 @@
       "blksize": 4194304,
       "ino": 23240422,
       "blocks": 0,
-      "atimeMs": 1534695741050.7114,
+      "atimeMs": 1534701954680.545,
       "mtimeMs": 1534672057388.7566,
       "ctimeMs": 1534672057388.7566,
       "birthtimeMs": 1534672057380.8408,
-      "atime": "2018-08-19T16:22:21.051Z",
+      "atime": "2018-08-19T18:05:54.681Z",
       "mtime": "2018-08-19T09:47:37.389Z",
       "ctime": "2018-08-19T09:47:37.389Z",
       "birthtime": "2018-08-19T09:47:37.381Z"
@@ -1936,7 +1948,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "11efcc57607b8f1a26a6bc70870c70ba",
+        "contentDigest": "fc019bf183df2d5d938ac23c9a0f29a3",
         "type": "Directory",
         "description": "Directory \"content/projects/2017-10-25\"",
         "owner": "gatsby-source-filesystem"
@@ -1948,7 +1960,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-08-19T09:47:37.383Z",
-      "accessTime": "2018-08-19T16:22:21.054Z",
+      "accessTime": "2018-08-19T18:05:54.683Z",
       "changeTime": "2018-08-19T09:47:37.383Z",
       "birthTime": "2018-08-19T09:47:37.381Z",
       "root": "/",
@@ -1966,11 +1978,11 @@
       "blksize": 4194304,
       "ino": 23240423,
       "blocks": 0,
-      "atimeMs": 1534695741054.1328,
+      "atimeMs": 1534701954683.1062,
       "mtimeMs": 1534672057382.7434,
       "ctimeMs": 1534672057382.7434,
       "birthtimeMs": 1534672057380.8826,
-      "atime": "2018-08-19T16:22:21.054Z",
+      "atime": "2018-08-19T18:05:54.683Z",
       "mtime": "2018-08-19T09:47:37.383Z",
       "ctime": "2018-08-19T09:47:37.383Z",
       "birthtime": "2018-08-19T09:47:37.381Z"
@@ -1980,7 +1992,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "145ac97c84f0626a835f513a8ba2943b",
+        "contentDigest": "cc7f35fe15dd3e3fc1d6b7838c4a4003",
         "type": "Directory",
         "description": "Directory \"content/projects/2017-10-26\"",
         "owner": "gatsby-source-filesystem"
@@ -1992,7 +2004,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-08-19T09:47:37.385Z",
-      "accessTime": "2018-08-19T16:22:21.054Z",
+      "accessTime": "2018-08-19T18:05:54.683Z",
       "changeTime": "2018-08-19T09:47:37.385Z",
       "birthTime": "2018-08-19T09:47:37.383Z",
       "root": "/",
@@ -2010,11 +2022,11 @@
       "blksize": 4194304,
       "ino": 23240426,
       "blocks": 0,
-      "atimeMs": 1534695741054.152,
+      "atimeMs": 1534701954683.1323,
       "mtimeMs": 1534672057385.2478,
       "ctimeMs": 1534672057385.2478,
       "birthtimeMs": 1534672057382.939,
-      "atime": "2018-08-19T16:22:21.054Z",
+      "atime": "2018-08-19T18:05:54.683Z",
       "mtime": "2018-08-19T09:47:37.385Z",
       "ctime": "2018-08-19T09:47:37.385Z",
       "birthtime": "2018-08-19T09:47:37.383Z"
@@ -2024,7 +2036,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "eca38484cef063172c2af86449653b98",
+        "contentDigest": "ff5784336e5a53ccf7fe4d093e22b091",
         "type": "Directory",
         "description": "Directory \"content/projects/2017-10-27\"",
         "owner": "gatsby-source-filesystem"
@@ -2036,7 +2048,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-08-19T09:47:37.386Z",
-      "accessTime": "2018-08-19T16:22:21.054Z",
+      "accessTime": "2018-08-19T18:05:54.683Z",
       "changeTime": "2018-08-19T09:47:37.386Z",
       "birthTime": "2018-08-19T09:47:37.385Z",
       "root": "/",
@@ -2054,11 +2066,11 @@
       "blksize": 4194304,
       "ino": 23240429,
       "blocks": 0,
-      "atimeMs": 1534695741054.1807,
+      "atimeMs": 1534701954683.0432,
       "mtimeMs": 1534672057385.6987,
       "ctimeMs": 1534672057385.6987,
       "birthtimeMs": 1534672057385.4336,
-      "atime": "2018-08-19T16:22:21.054Z",
+      "atime": "2018-08-19T18:05:54.683Z",
       "mtime": "2018-08-19T09:47:37.386Z",
       "ctime": "2018-08-19T09:47:37.386Z",
       "birthtime": "2018-08-19T09:47:37.385Z"
@@ -2068,7 +2080,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4f565c5b60885e89af2395b78e94188b",
+        "contentDigest": "6a67f0be3dcef1092ab2c06e2f9dbf6f",
         "type": "Directory",
         "description": "Directory \"content/projects/2017-10-28\"",
         "owner": "gatsby-source-filesystem"
@@ -2080,7 +2092,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-08-19T09:47:37.389Z",
-      "accessTime": "2018-08-19T16:22:21.054Z",
+      "accessTime": "2018-08-19T18:05:54.683Z",
       "changeTime": "2018-08-19T09:47:37.389Z",
       "birthTime": "2018-08-19T09:47:37.389Z",
       "root": "/",
@@ -2098,11 +2110,11 @@
       "blksize": 4194304,
       "ino": 23240432,
       "blocks": 0,
-      "atimeMs": 1534695741054.1997,
+      "atimeMs": 1534701954683.038,
       "mtimeMs": 1534672057389.0195,
       "ctimeMs": 1534672057389.0195,
       "birthtimeMs": 1534672057388.7488,
-      "atime": "2018-08-19T16:22:21.054Z",
+      "atime": "2018-08-19T18:05:54.683Z",
       "mtime": "2018-08-19T09:47:37.389Z",
       "ctime": "2018-08-19T09:47:37.389Z",
       "birthtime": "2018-08-19T09:47:37.389Z"
@@ -2639,27 +2651,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /offline-plugin-app-shell-fallback/": {
-      "layout": "index",
-      "jsonName": "offline-plugin-app-shell-fallback.json",
-      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
-      "path": "/offline-plugin-app-shell-fallback/",
-      "component": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-offline/app-shell.js",
-      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
-      "pluginCreatorId": "Plugin gatsby-plugin-offline",
-      "componentPath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-offline/app-shell.js",
-      "id": "SitePage /offline-plugin-app-shell-fallback/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "023690a81d6ce040a3f4ff78205575e4",
-        "description": "Plugin gatsby-plugin-offline",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /blob-sphere-make-spheres-blob": {
       "layout": "index",
       "jsonName": "blob-sphere-make-spheres-blob.json",
@@ -2678,7 +2669,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "26dcf582daf4a734050c7e71400ca41b",
+        "contentDigest": "1f894f0253689e8f403227ea17189785",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2701,7 +2692,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9e5e85b3c13eac7ea9a5174f83c29390",
+        "contentDigest": "3f5be1978eed9f0fe268c355cc528016",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2724,7 +2715,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b62e3c208cbf1b4631dc618c1018b734",
+        "contentDigest": "568e771b23f2823ab3f20c918de929c3",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2747,7 +2738,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9a5d140deb409e2e31e19c96ac03e074",
+        "contentDigest": "279507f320c2a93f31fa98988cf9b47f",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2768,7 +2759,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "42f5f5752e72f04f75124f37c1716d0a",
+        "contentDigest": "8e6ea8493b782b39a3230a93dfab8ea4",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2789,7 +2780,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3f9844cbd36fd86dda4892e42bb270d4",
+        "contentDigest": "0761f448b9436a2e56ef2f642e3cf68b",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2810,7 +2801,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "95032c5159ad8ed8be78db2cfa50b092",
+        "contentDigest": "d32c8183ffdd68b2eb5a31e7c646b75f",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2831,7 +2822,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "33a9a3d6bd5067a39c24b1e20baf695b",
+        "contentDigest": "51f146048d3b753d3a3127a4fdd5000c",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2852,7 +2843,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7f1e99447d7310e95e4df871d6216e09",
+        "contentDigest": "f9d8949be5ce987e42f0fed33f82a0b3",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2873,7 +2864,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "def3c4be3e4d7d021d9c513a7445d3a8",
+        "contentDigest": "5ff2223f42e943964f79240d76ff9516",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2894,7 +2885,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "64c15dc6b1540e92c752ae8e3f638a6c",
+        "contentDigest": "b79ae5275d07b46ba5e1be7fcefbfbc9",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2915,7 +2906,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8b0f663eaf292ee8ff07185531404540",
+        "contentDigest": "5bae94b5918c8aea968df52f0a8025c5",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }

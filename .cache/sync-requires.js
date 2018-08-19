@@ -7,8 +7,8 @@ exports.layouts = {
 }
 
 exports.components = {
-  "component---node-modules-gatsby-plugin-offline-app-shell-js": preferDefault(require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-offline/app-shell.js")),
   "component---src-templates-project-jsx": preferDefault(require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/templates/project.jsx")),
+  "component---cache-dev-404-page-js": preferDefault(require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/dev-404-page.js")),
   "component---src-pages-404-jsx": preferDefault(require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/404.jsx")),
   "component---src-pages-bubble-jsx": preferDefault(require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/bubble.jsx")),
   "component---src-pages-contact-jsx": preferDefault(require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/contact.jsx")),
@@ -20,11 +20,11 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/layout-index.json"),
-  "offline-plugin-app-shell-fallback.json": require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/offline-plugin-app-shell-fallback.json"),
   "blob-sphere-make-spheres-blob.json": require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/blob-sphere-make-spheres-blob.json"),
   "smart-triangle-make-triangles-smart.json": require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/smart-triangle-make-triangles-smart.json"),
   "leko-arts-your-theme-creator.json": require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/leko-arts-your-theme-creator.json"),
   "cube-round-make-cubes-round.json": require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/cube-round-make-cubes-round.json"),
+  "dev-404-page.json": require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/dev-404-page.json"),
   "404.json": require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/404.json"),
   "bubble.json": require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/bubble.json"),
   "contact.json": require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/contact.json"),
