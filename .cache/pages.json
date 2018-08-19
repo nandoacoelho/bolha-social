@@ -1,0 +1,93 @@
+[
+    {
+        "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "offline-plugin-app-shell-fallback.json",
+        "path": "/offline-plugin-app-shell-fallback/"
+    },
+    {
+        "componentChunkName": "component---src-templates-project-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "blob-sphere-make-spheres-blob.json",
+        "path": "/blob-sphere-make-spheres-blob"
+    },
+    {
+        "componentChunkName": "component---src-templates-project-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "smart-triangle-make-triangles-smart.json",
+        "path": "/smart-triangle-make-triangles-smart"
+    },
+    {
+        "componentChunkName": "component---src-templates-project-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "leko-arts-your-theme-creator.json",
+        "path": "/leko-arts-your-theme-creator"
+    },
+    {
+        "componentChunkName": "component---src-templates-project-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "cube-round-make-cubes-round.json",
+        "path": "/cube-round-make-cubes-round"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "404.json",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-pages-bubble-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "bubble.json",
+        "path": "/bubble/"
+    },
+    {
+        "componentChunkName": "component---src-pages-contact-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "contact.json",
+        "path": "/contact/"
+    },
+    {
+        "componentChunkName": "component---src-pages-index-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "index.json",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-share-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "share.json",
+        "path": "/share/"
+    },
+    {
+        "componentChunkName": "component---src-pages-team-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "team.json",
+        "path": "/team/"
+    },
+    {
+        "componentChunkName": "component---src-pages-what-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "what.json",
+        "path": "/what/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "404-html.json",
+        "path": "/404.html"
+    }
+]

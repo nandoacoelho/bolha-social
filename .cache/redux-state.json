@@ -1,0 +1,2974 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5c2e76d145f44dc6a29d2028c914b86a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c12e6592f105137ac49295cf758631d3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a4fd53adadd30e0e6963722af428302b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e23b223b248c6bc4db34e7619f2a7fb9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4a651979eff4db23ba8bd8f88d9bb9db",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cad7e4623d057c2293bf90f28874a01d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.39",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "projects",
+        "path": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.39",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8372523d06c554d9ba01854adb0a3235",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.44",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.67",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 1600,
+              "quality": 90,
+              "linkImagesToOriginal": false,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "showCaptions": false,
+              "pathPrefix": ""
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-remark-external-links",
+            "id": "Plugin gatsby-remark-external-links",
+            "name": "gatsby-remark-external-links",
+            "version": "0.0.4",
+            "pluginOptions": {
+              "plugins": [],
+              "target": "_blank",
+              "rel": "nofollow noopener noreferrer"
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-remark-external-links"
+          },
+          {
+            "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-remark-responsive-iframe",
+            "id": "Plugin gatsby-remark-responsive-iframe",
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "1.4.20",
+            "pluginOptions": {
+              "plugins": [],
+              "wrapperStyle": ""
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-remark-responsive-iframe"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.44",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c3146e051e2515a9674f9c3c629b9429",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.67",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 1600,
+        "quality": 90,
+        "linkImagesToOriginal": false,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "showCaptions": false,
+        "pathPrefix": ""
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.67",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.48"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b45512c4da984479532c28f7fdcd0610",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-external-links": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-remark-external-links",
+      "id": "Plugin gatsby-remark-external-links",
+      "name": "gatsby-remark-external-links",
+      "version": "0.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "target": "_blank",
+        "rel": "nofollow noopener noreferrer"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-remark-external-links",
+      "packageJson": {
+        "name": "gatsby-remark-external-links",
+        "description": "Automatically adds the target and rel attributes to external links in markdown.",
+        "version": "0.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": "Jimmy Longley <jimmylongley@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          },
+          {
+            "name": "dedent",
+            "version": "^0.7.0"
+          },
+          {
+            "name": "jest",
+            "version": "^21.2.1"
+          },
+          {
+            "name": "remark",
+            "version": "^8.0.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "82e87f427f956e63e2154d59f55272ee",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-responsive-iframe": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-remark-responsive-iframe",
+      "id": "Plugin gatsby-remark-responsive-iframe",
+      "name": "gatsby-remark-responsive-iframe",
+      "version": "1.4.20",
+      "pluginOptions": {
+        "plugins": [],
+        "wrapperStyle": ""
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-remark-responsive-iframe",
+      "packageJson": {
+        "name": "gatsby-remark-responsive-iframe",
+        "description": "Make iframes in Markdown processed by Remark responsive",
+        "version": "1.4.20",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e0d97b552efb50351bd246fb9b823d5c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-google-analytics",
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "1.0.31",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-124252195-1"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "1.0.31",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d67e9009968144cd2ca0c2d02919b0d6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-nprogress": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-nprogress",
+      "id": "Plugin gatsby-plugin-nprogress",
+      "name": "gatsby-plugin-nprogress",
+      "version": "1.0.14",
+      "pluginOptions": {
+        "plugins": [],
+        "color": "#ffffff"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-nprogress",
+      "packageJson": {
+        "name": "gatsby-plugin-nprogress",
+        "description": "Shows page loading indicator when loading page resources is delayed",
+        "version": "1.0.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews<mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "nprogress",
+            "version": "^0.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "525ba58e701f2b718ea48c3e9c60a139",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.48",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.48",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "5.0.1"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "484caaa6fa182f3c38b961557d95231b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.27",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.27",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "328dc1f3fe57013d16f7ed7d6123e521",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.26",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.26",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": "Daniel Farrell <daniel@mobelux.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-1-config-extract-plugin",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0016c4c6da29994368a125ec20cba9b1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-typography": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-typography",
+      "id": "Plugin gatsby-plugin-typography",
+      "name": "gatsby-plugin-typography",
+      "version": "1.7.18",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography.jsx"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "1.7.18",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "99f2b15d39e9a79b8489e994c5a82ec0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-catch-links": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-catch-links",
+      "id": "Plugin gatsby-plugin-catch-links",
+      "name": "gatsby-plugin-catch-links",
+      "version": "1.0.24",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-catch-links",
+      "packageJson": {
+        "name": "gatsby-plugin-catch-links",
+        "description": "Intercepts local links from markdown and other non-react pages and does a client-side pushState to avoid the browser having to refresh the page.",
+        "version": "1.0.24",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6709980b861ddb72548575e99ba2749e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sitemap": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-sitemap",
+      "id": "Plugin gatsby-plugin-sitemap",
+      "name": "gatsby-plugin-sitemap",
+      "version": "1.2.25",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-sitemap",
+      "packageJson": {
+        "name": "gatsby-plugin-sitemap",
+        "description": "Gatsby plugin that automatically creates a sitemap for your site",
+        "version": "1.2.25",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Nicholas Young &lt;nicholas@nicholaswyoung.com&gt;",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "minimatch",
+            "version": "^3.0.4"
+          },
+          {
+            "name": "sitemap",
+            "version": "^1.12.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b9677b134e123644e763325e2b07f8a2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-next": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-react-next",
+      "id": "Plugin gatsby-plugin-react-next",
+      "name": "gatsby-plugin-react-next",
+      "version": "1.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-react-next",
+      "packageJson": {
+        "name": "gatsby-plugin-react-next",
+        "description": "Use React 16 with your Gatsby v1 site",
+        "version": "1.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "core-js",
+            "version": "^2.5.1"
+          },
+          {
+            "name": "react",
+            "version": "^16.0.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "008a3c16cd2f390ff6b20bbcb1a8ac84",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-manifest": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-manifest",
+      "id": "Plugin gatsby-plugin-manifest",
+      "name": "gatsby-plugin-manifest",
+      "version": "1.0.27",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "Bolha Social",
+        "short_name": "Bolha Social",
+        "description": "",
+        "start_url": "/",
+        "background_color": "#ffffff",
+        "theme_color": "#ffffff",
+        "display": "minimal-ui",
+        "icons": [
+          {
+            "src": "/logos/logo-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "1.0.27",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1fa2cb0fca9b797608b7c423a9f61713",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-offline": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-offline",
+      "id": "Plugin gatsby-plugin-offline",
+      "name": "gatsby-plugin-offline",
+      "version": "1.0.18",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "1.0.18",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "sw-precache",
+            "version": "^5.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "46032c07547bb74efb87a7c8350f0695",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "aa7a8ba90a6bf021e0fe06f0cc5705ad",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website",
+      "packageJson": {
+        "name": "gatsby-starter-portfolio-emma",
+        "description": "Gatsby Starter Portfolio Emma",
+        "version": "1.1.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby",
+          "lekoarts",
+          "portfolio",
+          "starter",
+          "gatsby-starter"
+        ],
+        "author": "LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "classnames",
+            "version": "^2.2.5"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.9.266"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^1.0.51"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.44"
+          },
+          {
+            "name": "gatsby-plugin-catch-links",
+            "version": "^1.0.22"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.31"
+          },
+          {
+            "name": "gatsby-plugin-lodash",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^1.0.24"
+          },
+          {
+            "name": "gatsby-plugin-nprogress",
+            "version": "^1.0.14"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^1.0.18"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-plugin-react-next",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.26"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.46"
+          },
+          {
+            "name": "gatsby-plugin-sitemap",
+            "version": "^1.2.25"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^1.7.18"
+          },
+          {
+            "name": "gatsby-remark-external-links",
+            "version": "^0.0.4"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.65"
+          },
+          {
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "^1.4.19"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.38"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.41"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.26"
+          },
+          {
+            "name": "react-burger-menu",
+            "version": "^2.5.0"
+          },
+          {
+            "name": "react-headroom",
+            "version": "^2.2.2"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-icons",
+            "version": "^2.2.7"
+          },
+          {
+            "name": "react-palette",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "react-reveal",
+            "version": "^0.7.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-eslint",
+            "version": "^8.2.3"
+          },
+          {
+            "name": "chalk",
+            "version": "^2.4.1"
+          },
+          {
+            "name": "eslint",
+            "version": "^4.19.1"
+          },
+          {
+            "name": "eslint-config-airbnb",
+            "version": "^16.1.0"
+          },
+          {
+            "name": "eslint-config-prettier",
+            "version": "^2.9.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "^2.12.0"
+          },
+          {
+            "name": "eslint-plugin-jsx-a11y",
+            "version": "^6.0.3"
+          },
+          {
+            "name": "eslint-plugin-prettier",
+            "version": "^2.6.0"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.8.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.13.3"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "16bed2a9c11aedd81b4070d758459de0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c24c42d08ae09085d4ed7a1397079acb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "siteUrl": "http://bolhasocial.com"
+      },
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-08-19T16:22:16.709Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d126732a596737f409a09d0356b6a781",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects absPath of file": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f633340458b56c9f6b4f5e76295a29d6",
+        "type": "Directory",
+        "description": "Directory \"content/projects\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects",
+      "relativePath": "",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2018-08-19T09:47:37.389Z",
+      "accessTime": "2018-08-19T16:22:21.051Z",
+      "changeTime": "2018-08-19T09:47:37.389Z",
+      "birthTime": "2018-08-19T09:47:37.381Z",
+      "root": "/",
+      "dir": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content",
+      "base": "projects",
+      "ext": "",
+      "name": "projects",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 23240422,
+      "blocks": 0,
+      "atimeMs": 1534695741050.7114,
+      "mtimeMs": 1534672057388.7566,
+      "ctimeMs": 1534672057388.7566,
+      "birthtimeMs": 1534672057380.8408,
+      "atime": "2018-08-19T16:22:21.051Z",
+      "mtime": "2018-08-19T09:47:37.389Z",
+      "ctime": "2018-08-19T09:47:37.389Z",
+      "birthtime": "2018-08-19T09:47:37.381Z"
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25 absPath of file": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "11efcc57607b8f1a26a6bc70870c70ba",
+        "type": "Directory",
+        "description": "Directory \"content/projects/2017-10-25\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25",
+      "relativePath": "2017-10-25",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-08-19T09:47:37.383Z",
+      "accessTime": "2018-08-19T16:22:21.054Z",
+      "changeTime": "2018-08-19T09:47:37.383Z",
+      "birthTime": "2018-08-19T09:47:37.381Z",
+      "root": "/",
+      "dir": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects",
+      "base": "2017-10-25",
+      "ext": "",
+      "name": "2017-10-25",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 23240423,
+      "blocks": 0,
+      "atimeMs": 1534695741054.1328,
+      "mtimeMs": 1534672057382.7434,
+      "ctimeMs": 1534672057382.7434,
+      "birthtimeMs": 1534672057380.8826,
+      "atime": "2018-08-19T16:22:21.054Z",
+      "mtime": "2018-08-19T09:47:37.383Z",
+      "ctime": "2018-08-19T09:47:37.383Z",
+      "birthtime": "2018-08-19T09:47:37.381Z"
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26 absPath of file": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "145ac97c84f0626a835f513a8ba2943b",
+        "type": "Directory",
+        "description": "Directory \"content/projects/2017-10-26\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26",
+      "relativePath": "2017-10-26",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-08-19T09:47:37.385Z",
+      "accessTime": "2018-08-19T16:22:21.054Z",
+      "changeTime": "2018-08-19T09:47:37.385Z",
+      "birthTime": "2018-08-19T09:47:37.383Z",
+      "root": "/",
+      "dir": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects",
+      "base": "2017-10-26",
+      "ext": "",
+      "name": "2017-10-26",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 23240426,
+      "blocks": 0,
+      "atimeMs": 1534695741054.152,
+      "mtimeMs": 1534672057385.2478,
+      "ctimeMs": 1534672057385.2478,
+      "birthtimeMs": 1534672057382.939,
+      "atime": "2018-08-19T16:22:21.054Z",
+      "mtime": "2018-08-19T09:47:37.385Z",
+      "ctime": "2018-08-19T09:47:37.385Z",
+      "birthtime": "2018-08-19T09:47:37.383Z"
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27 absPath of file": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "eca38484cef063172c2af86449653b98",
+        "type": "Directory",
+        "description": "Directory \"content/projects/2017-10-27\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27",
+      "relativePath": "2017-10-27",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-08-19T09:47:37.386Z",
+      "accessTime": "2018-08-19T16:22:21.054Z",
+      "changeTime": "2018-08-19T09:47:37.386Z",
+      "birthTime": "2018-08-19T09:47:37.385Z",
+      "root": "/",
+      "dir": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects",
+      "base": "2017-10-27",
+      "ext": "",
+      "name": "2017-10-27",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 23240429,
+      "blocks": 0,
+      "atimeMs": 1534695741054.1807,
+      "mtimeMs": 1534672057385.6987,
+      "ctimeMs": 1534672057385.6987,
+      "birthtimeMs": 1534672057385.4336,
+      "atime": "2018-08-19T16:22:21.054Z",
+      "mtime": "2018-08-19T09:47:37.386Z",
+      "ctime": "2018-08-19T09:47:37.386Z",
+      "birthtime": "2018-08-19T09:47:37.385Z"
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28 absPath of file": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4f565c5b60885e89af2395b78e94188b",
+        "type": "Directory",
+        "description": "Directory \"content/projects/2017-10-28\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28",
+      "relativePath": "2017-10-28",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-08-19T09:47:37.389Z",
+      "accessTime": "2018-08-19T16:22:21.054Z",
+      "changeTime": "2018-08-19T09:47:37.389Z",
+      "birthTime": "2018-08-19T09:47:37.389Z",
+      "root": "/",
+      "dir": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects",
+      "base": "2017-10-28",
+      "ext": "",
+      "name": "2017-10-28",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 23240432,
+      "blocks": 0,
+      "atimeMs": 1534695741054.1997,
+      "mtimeMs": 1534672057389.0195,
+      "ctimeMs": 1534672057389.0195,
+      "birthtimeMs": 1534672057388.7488,
+      "atime": "2018-08-19T16:22:21.054Z",
+      "mtime": "2018-08-19T09:47:37.389Z",
+      "ctime": "2018-08-19T09:47:37.389Z",
+      "birthtime": "2018-08-19T09:47:37.389Z"
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/index.md absPath of file": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/index.md absPath of file",
+      "children": [
+        "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0146c93a0e518060161c88f957c1cf3a",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"content/projects/2017-10-25/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/index.md",
+      "relativePath": "2017-10-25/index.md",
+      "extension": "md",
+      "size": 840,
+      "prettySize": "840 B",
+      "modifiedTime": "2018-08-19T09:47:37.383Z",
+      "accessTime": "2018-08-19T09:47:38.000Z",
+      "changeTime": "2018-08-19T09:47:37.383Z",
+      "birthTime": "2018-08-19T09:47:37.383Z",
+      "root": "/",
+      "dir": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2017-10-25",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 23240425,
+      "blocks": 8,
+      "atimeMs": 1534672058000.2485,
+      "mtimeMs": 1534672057382.8293,
+      "ctimeMs": 1534672057382.8293,
+      "birthtimeMs": 1534672057382.7354,
+      "atime": "2018-08-19T09:47:38.000Z",
+      "mtime": "2018-08-19T09:47:37.383Z",
+      "ctime": "2018-08-19T09:47:37.383Z",
+      "birthtime": "2018-08-19T09:47:37.383Z"
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file",
+      "children": [
+        "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5ced2e3ea6e36145539483b62fb03920",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"content/projects/2017-10-27/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md",
+      "relativePath": "2017-10-27/index.md",
+      "extension": "md",
+      "size": 855,
+      "prettySize": "855 B",
+      "modifiedTime": "2018-08-19T09:47:37.386Z",
+      "accessTime": "2018-08-19T09:47:38.005Z",
+      "changeTime": "2018-08-19T09:47:37.386Z",
+      "birthTime": "2018-08-19T09:47:37.385Z",
+      "root": "/",
+      "dir": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2017-10-27",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 23240430,
+      "blocks": 8,
+      "atimeMs": 1534672058004.7168,
+      "mtimeMs": 1534672057385.5889,
+      "ctimeMs": 1534672057385.5889,
+      "birthtimeMs": 1534672057385.4854,
+      "atime": "2018-08-19T09:47:38.005Z",
+      "mtime": "2018-08-19T09:47:37.386Z",
+      "ctime": "2018-08-19T09:47:37.386Z",
+      "birthtime": "2018-08-19T09:47:37.385Z"
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/index.md absPath of file": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/index.md absPath of file",
+      "children": [
+        "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3d33b9fa6152f32471d404011c6ed29b",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"content/projects/2017-10-28/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/index.md",
+      "relativePath": "2017-10-28/index.md",
+      "extension": "md",
+      "size": 591,
+      "prettySize": "591 B",
+      "modifiedTime": "2018-08-19T09:47:37.389Z",
+      "accessTime": "2018-08-19T09:47:38.005Z",
+      "changeTime": "2018-08-19T09:47:37.389Z",
+      "birthTime": "2018-08-19T09:47:37.389Z",
+      "root": "/",
+      "dir": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2017-10-28",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 23240433,
+      "blocks": 8,
+      "atimeMs": 1534672058004.9348,
+      "mtimeMs": 1534672057388.9058,
+      "ctimeMs": 1534672057388.9058,
+      "birthtimeMs": 1534672057388.8093,
+      "atime": "2018-08-19T09:47:38.005Z",
+      "mtime": "2018-08-19T09:47:37.389Z",
+      "ctime": "2018-08-19T09:47:37.389Z",
+      "birthtime": "2018-08-19T09:47:37.389Z"
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/index.md absPath of file": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/index.md absPath of file",
+      "children": [
+        "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "cf294ceee07e3024eb0dfd2f2453d464",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"content/projects/2017-10-26/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/index.md",
+      "relativePath": "2017-10-26/index.md",
+      "extension": "md",
+      "size": 833,
+      "prettySize": "833 B",
+      "modifiedTime": "2018-08-19T09:47:37.385Z",
+      "accessTime": "2018-08-19T09:47:38.000Z",
+      "changeTime": "2018-08-19T09:47:37.385Z",
+      "birthTime": "2018-08-19T09:47:37.385Z",
+      "root": "/",
+      "dir": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2017-10-26",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 23240428,
+      "blocks": 8,
+      "atimeMs": 1534672057999.5286,
+      "mtimeMs": 1534672057385.3413,
+      "ctimeMs": 1534672057385.3413,
+      "birthtimeMs": 1534672057385.24,
+      "atime": "2018-08-19T09:47:38.000Z",
+      "mtime": "2018-08-19T09:47:37.385Z",
+      "ctime": "2018-08-19T09:47:37.385Z",
+      "birthtime": "2018-08-19T09:47:37.385Z"
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/blobSphere.jpg absPath of file": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/blobSphere.jpg absPath of file",
+      "children": [
+        "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/blobSphere.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6fddcc062738759fdf558ef34a022b15",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"content/projects/2017-10-25/blobSphere.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/blobSphere.jpg",
+      "relativePath": "2017-10-25/blobSphere.jpg",
+      "extension": "jpg",
+      "size": 209762,
+      "prettySize": "210 kB",
+      "modifiedTime": "2018-08-19T09:47:37.383Z",
+      "accessTime": "2018-08-19T09:47:38.003Z",
+      "changeTime": "2018-08-19T09:47:37.383Z",
+      "birthTime": "2018-08-19T09:47:37.381Z",
+      "root": "/",
+      "dir": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25",
+      "base": "blobSphere.jpg",
+      "ext": ".jpg",
+      "name": "blobSphere",
+      "relativeDirectory": "2017-10-25",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 23240424,
+      "blocks": 416,
+      "atimeMs": 1534672058003.0674,
+      "mtimeMs": 1534672057382.554,
+      "ctimeMs": 1534672057382.554,
+      "birthtimeMs": 1534672057380.9636,
+      "atime": "2018-08-19T09:47:38.003Z",
+      "mtime": "2018-08-19T09:47:37.383Z",
+      "ctime": "2018-08-19T09:47:37.383Z",
+      "birthtime": "2018-08-19T09:47:37.381Z"
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg absPath of file": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg absPath of file",
+      "children": [
+        "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "224143b7440585785b0d46827cc65219",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"content/projects/2017-10-26/cubeRound.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg",
+      "relativePath": "2017-10-26/cubeRound.jpg",
+      "extension": "jpg",
+      "size": 292267,
+      "prettySize": "292 kB",
+      "modifiedTime": "2018-08-19T09:47:37.385Z",
+      "accessTime": "2018-08-19T09:47:38.156Z",
+      "changeTime": "2018-08-19T09:47:37.385Z",
+      "birthTime": "2018-08-19T09:47:37.383Z",
+      "root": "/",
+      "dir": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26",
+      "base": "cubeRound.jpg",
+      "ext": ".jpg",
+      "name": "cubeRound",
+      "relativeDirectory": "2017-10-26",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 23240427,
+      "blocks": 576,
+      "atimeMs": 1534672058156.164,
+      "mtimeMs": 1534672057385.0876,
+      "ctimeMs": 1534672057385.0876,
+      "birthtimeMs": 1534672057382.9937,
+      "atime": "2018-08-19T09:47:38.156Z",
+      "mtime": "2018-08-19T09:47:37.385Z",
+      "ctime": "2018-08-19T09:47:37.385Z",
+      "birthtime": "2018-08-19T09:47:37.383Z"
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/blobSphere.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/blobSphere.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/blobSphere.jpg absPath of file",
+      "internal": {
+        "contentDigest": "6fddcc062738759fdf558ef34a022b15",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/index.md absPath of file",
+      "internal": {
+        "content": "---\nclient: \"BlobSphere\"\ntitle: \"BlobSphere - Make Spheres blob!\"\ncover: \"./blobSphere.jpg\"\ndate: \"2017-10-25\"\nservice: \"App Design\"\n---\n# Description\n\nFar far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands.",
+        "type": "MarkdownRemark",
+        "contentDigest": "07aebfb4d3b98f5601374b80790b2d6d",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "BlobSphere - Make Spheres blob!",
+        "client": "BlobSphere",
+        "cover": "./blobSphere.jpg",
+        "date": "2017-10-25",
+        "service": "App Design",
+        "_PARENT": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/index.md absPath of file",
+        "parent": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "# Description\n\nFar far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands.",
+      "fileAbsolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/index.md",
+      "fields": {
+        "slug": "/blob-sphere-make-spheres-blob"
+      }
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file",
+      "internal": {
+        "content": "---\nclient: \"SmartTriangle\"\ntitle: \"SmartTriangle - Make Triangles smart!\"\ncover: \"./smartTriangle.jpg\"\ndate: \"2017-10-27\"\nservice: \"Art Direction\"\n---\n# Description\n\nFar far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands.",
+        "type": "MarkdownRemark",
+        "contentDigest": "0cc344767e4fa1f39b03319f8479c361",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "SmartTriangle - Make Triangles smart!",
+        "client": "SmartTriangle",
+        "cover": "./smartTriangle.jpg",
+        "date": "2017-10-27",
+        "service": "Art Direction",
+        "_PARENT": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file",
+        "parent": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "# Description\n\nFar far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands.",
+      "fileAbsolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md",
+      "fields": {
+        "slug": "/smart-triangle-make-triangles-smart"
+      }
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/index.md absPath of file",
+      "internal": {
+        "content": "---\nclient: \"LekoArts\"\ntitle: \"LekoArts - Your theme creator!\"\ncover: \"./lekoarts.jpg\"\ndate: \"2017-10-28\"\nservice: \"Theme\"\n---\n# Description\n\nHi!\nI hope you like this theme and enjoy working with it. I've also made other themes! You can check them out here: [Gatsby Starters](https://www.gatsbyjs.org/docs/gatsby-starters/).\n\nIf you want to see more of my work I recommend visiting my [personal portfolio](https://www.lekoarts.de). By pledging to my [patreon campaign](https://www.patreon.com/lekoarts) you help me making more themes and creating more tutorials. Thanks!\n\n![](./lekoarts.jpg)",
+        "type": "MarkdownRemark",
+        "contentDigest": "52a0274f9c613e34bca30ecc9a05c79f",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "LekoArts - Your theme creator!",
+        "client": "LekoArts",
+        "cover": "./lekoarts.jpg",
+        "date": "2017-10-28",
+        "service": "Theme",
+        "_PARENT": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/index.md absPath of file",
+        "parent": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "# Description\n\nHi!\nI hope you like this theme and enjoy working with it. I've also made other themes! You can check them out here: [Gatsby Starters](https://www.gatsbyjs.org/docs/gatsby-starters/).\n\nIf you want to see more of my work I recommend visiting my [personal portfolio](https://www.lekoarts.de). By pledging to my [patreon campaign](https://www.patreon.com/lekoarts) you help me making more themes and creating more tutorials. Thanks!\n\n![](./lekoarts.jpg)",
+      "fileAbsolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/index.md",
+      "fields": {
+        "slug": "/leko-arts-your-theme-creator"
+      }
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/index.md absPath of file",
+      "internal": {
+        "content": "---\nclient: \"CubeRound\"\ntitle: \"CubeRound - Make Cubes round!\"\ncover: \"./cubeRound.jpg\"\ndate: \"2017-10-26\"\nservice: \"Website\"\n---\n# Description\n\nFar far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands.",
+        "type": "MarkdownRemark",
+        "contentDigest": "97eb4ea977b39338753b62b4d3d1cef0",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "CubeRound - Make Cubes round!",
+        "client": "CubeRound",
+        "cover": "./cubeRound.jpg",
+        "date": "2017-10-26",
+        "service": "Website",
+        "_PARENT": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/index.md absPath of file",
+        "parent": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "# Description\n\nFar far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands.",
+      "fileAbsolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/index.md",
+      "fields": {
+        "slug": "/cube-round-make-cubes-round"
+      }
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg absPath of file",
+      "internal": {
+        "contentDigest": "224143b7440585785b0d46827cc65219",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file",
+      "children": [
+        "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3cde51e22072224ef24b6f5b0fe45a1f",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"content/projects/2017-10-27/smartTriangle.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg",
+      "relativePath": "2017-10-27/smartTriangle.jpg",
+      "extension": "jpg",
+      "size": 404825,
+      "prettySize": "405 kB",
+      "modifiedTime": "2018-08-19T09:47:37.389Z",
+      "accessTime": "2018-08-19T09:47:38.140Z",
+      "changeTime": "2018-08-19T09:47:37.389Z",
+      "birthTime": "2018-08-19T09:47:37.386Z",
+      "root": "/",
+      "dir": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27",
+      "base": "smartTriangle.jpg",
+      "ext": ".jpg",
+      "name": "smartTriangle",
+      "relativeDirectory": "2017-10-27",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 23240431,
+      "blocks": 792,
+      "atimeMs": 1534672058139.8518,
+      "mtimeMs": 1534672057388.5735,
+      "ctimeMs": 1534672057388.5735,
+      "birthtimeMs": 1534672057385.6926,
+      "atime": "2018-08-19T09:47:38.140Z",
+      "mtime": "2018-08-19T09:47:37.389Z",
+      "ctime": "2018-08-19T09:47:37.389Z",
+      "birthtime": "2018-08-19T09:47:37.386Z"
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/lekoarts.jpg absPath of file": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/lekoarts.jpg absPath of file",
+      "children": [
+        "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/lekoarts.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b08fd96a9f0f169a01466956bb867132",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"content/projects/2017-10-28/lekoarts.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/lekoarts.jpg",
+      "relativePath": "2017-10-28/lekoarts.jpg",
+      "extension": "jpg",
+      "size": 472968,
+      "prettySize": "473 kB",
+      "modifiedTime": "2018-08-19T09:47:37.392Z",
+      "accessTime": "2018-08-19T09:47:38.140Z",
+      "changeTime": "2018-08-19T09:47:37.392Z",
+      "birthTime": "2018-08-19T09:47:37.389Z",
+      "root": "/",
+      "dir": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28",
+      "base": "lekoarts.jpg",
+      "ext": ".jpg",
+      "name": "lekoarts",
+      "relativeDirectory": "2017-10-28",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 23240434,
+      "blocks": 928,
+      "atimeMs": 1534672058139.8613,
+      "mtimeMs": 1534672057392.106,
+      "ctimeMs": 1534672057392.106,
+      "birthtimeMs": 1534672057389.0134,
+      "atime": "2018-08-19T09:47:38.140Z",
+      "mtime": "2018-08-19T09:47:37.392Z",
+      "ctime": "2018-08-19T09:47:37.392Z",
+      "birthtime": "2018-08-19T09:47:37.389Z"
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file",
+      "internal": {
+        "contentDigest": "3cde51e22072224ef24b6f5b0fe45a1f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/lekoarts.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/lekoarts.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/lekoarts.jpg absPath of file",
+      "internal": {
+        "contentDigest": "b08fd96a9f0f169a01466956bb867132",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "layout": "index",
+      "jsonName": "offline-plugin-app-shell-fallback.json",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
+      "componentPath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "023690a81d6ce040a3f4ff78205575e4",
+        "description": "Plugin gatsby-plugin-offline",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blob-sphere-make-spheres-blob": {
+      "layout": "index",
+      "jsonName": "blob-sphere-make-spheres-blob.json",
+      "internalComponentName": "ComponentBlobSphereMakeSpheresBlob",
+      "path": "/blob-sphere-make-spheres-blob",
+      "component": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/templates/project.jsx",
+      "componentChunkName": "component---src-templates-project-jsx",
+      "context": {
+        "slug": "/blob-sphere-make-spheres-blob"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/templates/project.jsx",
+      "id": "SitePage /blob-sphere-make-spheres-blob",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "26dcf582daf4a734050c7e71400ca41b",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /smart-triangle-make-triangles-smart": {
+      "layout": "index",
+      "jsonName": "smart-triangle-make-triangles-smart.json",
+      "internalComponentName": "ComponentSmartTriangleMakeTrianglesSmart",
+      "path": "/smart-triangle-make-triangles-smart",
+      "component": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/templates/project.jsx",
+      "componentChunkName": "component---src-templates-project-jsx",
+      "context": {
+        "slug": "/smart-triangle-make-triangles-smart"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/templates/project.jsx",
+      "id": "SitePage /smart-triangle-make-triangles-smart",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9e5e85b3c13eac7ea9a5174f83c29390",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /leko-arts-your-theme-creator": {
+      "layout": "index",
+      "jsonName": "leko-arts-your-theme-creator.json",
+      "internalComponentName": "ComponentLekoArtsYourThemeCreator",
+      "path": "/leko-arts-your-theme-creator",
+      "component": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/templates/project.jsx",
+      "componentChunkName": "component---src-templates-project-jsx",
+      "context": {
+        "slug": "/leko-arts-your-theme-creator"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/templates/project.jsx",
+      "id": "SitePage /leko-arts-your-theme-creator",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b62e3c208cbf1b4631dc618c1018b734",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cube-round-make-cubes-round": {
+      "layout": "index",
+      "jsonName": "cube-round-make-cubes-round.json",
+      "internalComponentName": "ComponentCubeRoundMakeCubesRound",
+      "path": "/cube-round-make-cubes-round",
+      "component": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/templates/project.jsx",
+      "componentChunkName": "component---src-templates-project-jsx",
+      "context": {
+        "slug": "/cube-round-make-cubes-round"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/templates/project.jsx",
+      "id": "SitePage /cube-round-make-cubes-round",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9a5d140deb409e2e31e19c96ac03e074",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/404.jsx",
+      "componentChunkName": "component---src-pages-404-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/404.jsx",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "42f5f5752e72f04f75124f37c1716d0a",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /bubble/": {
+      "layout": "index",
+      "jsonName": "bubble.json",
+      "internalComponentName": "ComponentBubble",
+      "path": "/bubble/",
+      "component": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/bubble.jsx",
+      "componentChunkName": "component---src-pages-bubble-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/bubble.jsx",
+      "id": "SitePage /bubble/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3f9844cbd36fd86dda4892e42bb270d4",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "layout": "index",
+      "jsonName": "contact.json",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/contact.jsx",
+      "componentChunkName": "component---src-pages-contact-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/contact.jsx",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "95032c5159ad8ed8be78db2cfa50b092",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/index.jsx",
+      "componentChunkName": "component---src-pages-index-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/index.jsx",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "33a9a3d6bd5067a39c24b1e20baf695b",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /share/": {
+      "layout": "index",
+      "jsonName": "share.json",
+      "internalComponentName": "ComponentShare",
+      "path": "/share/",
+      "component": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/share.jsx",
+      "componentChunkName": "component---src-pages-share-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/share.jsx",
+      "id": "SitePage /share/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7f1e99447d7310e95e4df871d6216e09",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /team/": {
+      "layout": "index",
+      "jsonName": "team.json",
+      "internalComponentName": "ComponentTeam",
+      "path": "/team/",
+      "component": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/team.jsx",
+      "componentChunkName": "component---src-pages-team-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/team.jsx",
+      "id": "SitePage /team/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "def3c4be3e4d7d021d9c513a7445d3a8",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /what/": {
+      "layout": "index",
+      "jsonName": "what.json",
+      "internalComponentName": "ComponentWhat",
+      "path": "/what/",
+      "component": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/what.jsx",
+      "componentChunkName": "component---src-pages-what-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/what.jsx",
+      "id": "SitePage /what/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "64c15dc6b1540e92c752ae8e3f638a6c",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/404.jsx",
+      "componentChunkName": "component---src-pages-404-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/404.jsx",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8b0f663eaf292ee8ff07185531404540",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "6c790493013acab5fee1971346a05156"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/index.md absPath of file >>> MarkdownRemark": [
+        "/leko-arts-your-theme-creator"
+      ],
+      "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/lekoarts.jpg absPath of file": [
+        "/leko-arts-your-theme-creator"
+      ],
+      "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/lekoarts.jpg absPath of file >> ImageSharp": [
+        "/leko-arts-your-theme-creator"
+      ],
+      "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file >>> MarkdownRemark": [
+        "/smart-triangle-make-triangles-smart"
+      ],
+      "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file": [
+        "/smart-triangle-make-triangles-smart"
+      ],
+      "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file >> ImageSharp": [
+        "/smart-triangle-make-triangles-smart"
+      ],
+      "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/index.md absPath of file >>> MarkdownRemark": [
+        "/blob-sphere-make-spheres-blob"
+      ],
+      "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/blobSphere.jpg absPath of file": [
+        "/blob-sphere-make-spheres-blob"
+      ],
+      "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/blobSphere.jpg absPath of file >> ImageSharp": [
+        "/blob-sphere-make-spheres-blob"
+      ],
+      "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/index.md absPath of file >>> MarkdownRemark": [
+        "/cube-round-make-cubes-round"
+      ],
+      "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg absPath of file": [
+        "/cube-round-make-cubes-round"
+      ],
+      "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg absPath of file >> ImageSharp": [
+        "/cube-round-make-cubes-round"
+      ]
+    },
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ],
+      "MarkdownRemark": []
+    }
+  }
+}
