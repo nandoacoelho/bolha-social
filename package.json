@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "classnames": "^2.2.5",
+    "d3": "^5.6.0",
+    "firebase": "^5.4.0",
     "gatsby": "^1.9.266",
     "gatsby-image": "^1.0.51",
     "gatsby-link": "^1.6.44",
@@ -35,9 +37,17 @@
     "react-helmet": "^5.2.0",
     "react-icons": "^2.2.7",
     "react-palette": "^0.1.3",
-    "react-reveal": "^0.7.3"
+    "react-reveal": "^0.7.3",
+    "vis": "^4.21.0",
+    "vis-react": "^0.3.0"
   },
-  "keywords": ["gatsby", "lekoarts", "portfolio", "starter", "gatsby-starter"],
+  "keywords": [
+    "gatsby",
+    "lekoarts",
+    "portfolio",
+    "starter",
+    "gatsby-starter"
+  ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
@@ -58,5 +68,9 @@
     "lodash": "^4.17.10",
     "prettier": "^1.13.3"
   },
-  "browserslist": ["> 1%", "IE >= 9", "last 2 versions"]
+  "browserslist": [
+    "> 1%",
+    "IE >= 9",
+    "last 2 versions"
+  ]
 }

@@ -20,6 +20,7 @@ module.exports = {
   share: "Compartilhe",
   team: "Equipe",
   contact: "Contato",
+  results: "results",
   // Date format used in your project header
   // More information here: https://date-fns.org/v1.29.0/docs/format
   dateFormat: "DD.MM.YYYY",

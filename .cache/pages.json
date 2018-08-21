@@ -3,13 +3,6 @@
         "componentChunkName": "component---src-templates-project-jsx",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "blob-sphere-make-spheres-blob.json",
-        "path": "/blob-sphere-make-spheres-blob"
-    },
-    {
-        "componentChunkName": "component---src-templates-project-jsx",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-jsx",
         "jsonName": "smart-triangle-make-triangles-smart.json",
         "path": "/smart-triangle-make-triangles-smart"
     },
@@ -17,8 +10,8 @@
         "componentChunkName": "component---src-templates-project-jsx",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "leko-arts-your-theme-creator.json",
-        "path": "/leko-arts-your-theme-creator"
+        "jsonName": "blob-sphere-make-spheres-blob.json",
+        "path": "/blob-sphere-make-spheres-blob"
     },
     {
         "componentChunkName": "component---src-templates-project-jsx",
@@ -26,6 +19,13 @@
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
         "jsonName": "cube-round-make-cubes-round.json",
         "path": "/cube-round-make-cubes-round"
+    },
+    {
+        "componentChunkName": "component---src-templates-project-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "leko-arts-your-theme-creator.json",
+        "path": "/leko-arts-your-theme-creator"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",
@@ -61,6 +61,13 @@
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
         "jsonName": "index.json",
         "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-results-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "results.json",
+        "path": "/results/"
     },
     {
         "componentChunkName": "component---src-pages-share-jsx",

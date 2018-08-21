@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import Link from "gatsby-link";
 import Headroom from "react-headroom";
-import { FaInstagram, FaBehance, FaDribbble } from "react-icons/lib/fa";
 import { slide as Menu } from "react-burger-menu";
-import { Fade } from "react-reveal";
 import config from "../../../config/SiteConfig";
 import styles from "./Navigation.module.scss";
 import "./Headroom.scss";
