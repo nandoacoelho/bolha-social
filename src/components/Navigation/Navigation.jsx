@@ -46,7 +46,7 @@ export default class Navigation extends Component {
                 <Link to="/" activeClassName="active">
                   sua bolha
                 </Link>
-                <Link to="/what" activeClassName="active">
+                {/*<Link to="/what" activeClassName="active">
                   o que é
                 </Link>
                 <Link to="/share" activeClassName="active">
@@ -57,7 +57,7 @@ export default class Navigation extends Component {
                 </Link>
                 <Link to="/contact" activeClassName="active">
                   contato
-                </Link>
+    </Link> */}
               </span>
             </nav>
           </div>

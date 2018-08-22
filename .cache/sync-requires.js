@@ -21,9 +21,9 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/layout-index.json"),
-  "smart-triangle-make-triangles-smart.json": require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/smart-triangle-make-triangles-smart.json"),
   "blob-sphere-make-spheres-blob.json": require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/blob-sphere-make-spheres-blob.json"),
   "cube-round-make-cubes-round.json": require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/cube-round-make-cubes-round.json"),
+  "smart-triangle-make-triangles-smart.json": require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/smart-triangle-make-triangles-smart.json"),
   "leko-arts-your-theme-creator.json": require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/leko-arts-your-theme-creator.json"),
   "dev-404-page.json": require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/dev-404-page.json"),
   "404.json": require("/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/404.json"),

@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9efda7b86bf5057b8f806d41256e3b58",
+        "contentDigest": "7c05821d25e67de8fb381c5c8820420b",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -1641,96 +1641,92 @@
             "version": "^2.2.5"
           },
           {
-            "name": "d3",
-            "version": "^5.6.0"
-          },
-          {
             "name": "firebase",
             "version": "^5.4.0"
           },
           {
             "name": "gatsby",
-            "version": "^1.9.266"
+            "version": "next"
           },
           {
             "name": "gatsby-image",
-            "version": "^1.0.51"
+            "version": "next"
           },
           {
             "name": "gatsby-link",
-            "version": "^1.6.44"
+            "version": "next"
           },
           {
             "name": "gatsby-plugin-catch-links",
-            "version": "^1.0.22"
+            "version": "next"
           },
           {
             "name": "gatsby-plugin-google-analytics",
-            "version": "^1.0.31"
+            "version": "next"
           },
           {
             "name": "gatsby-plugin-lodash",
-            "version": "^1.0.11"
+            "version": "next"
           },
           {
             "name": "gatsby-plugin-manifest",
-            "version": "^1.0.24"
+            "version": "next"
           },
           {
             "name": "gatsby-plugin-nprogress",
-            "version": "^1.0.14"
+            "version": "next"
           },
           {
             "name": "gatsby-plugin-offline",
-            "version": "^1.0.18"
+            "version": "next"
           },
           {
             "name": "gatsby-plugin-react-helmet",
-            "version": "^2.0.11"
+            "version": "next"
           },
           {
             "name": "gatsby-plugin-react-next",
-            "version": "^1.0.11"
+            "version": "next"
           },
           {
             "name": "gatsby-plugin-sass",
-            "version": "^1.0.26"
+            "version": "next"
           },
           {
             "name": "gatsby-plugin-sharp",
-            "version": "^1.6.46"
+            "version": "next"
           },
           {
             "name": "gatsby-plugin-sitemap",
-            "version": "^1.2.25"
+            "version": "next"
           },
           {
             "name": "gatsby-plugin-typography",
-            "version": "^1.7.18"
+            "version": "next"
           },
           {
             "name": "gatsby-remark-external-links",
-            "version": "^0.0.4"
+            "version": "next"
           },
           {
             "name": "gatsby-remark-images",
-            "version": "^1.5.65"
+            "version": "next"
           },
           {
             "name": "gatsby-remark-responsive-iframe",
-            "version": "^1.4.19"
+            "version": "next"
           },
           {
             "name": "gatsby-source-filesystem",
-            "version": "^1.5.38"
+            "version": "next"
           },
           {
             "name": "gatsby-transformer-remark",
-            "version": "^1.7.41"
+            "version": "next"
           },
           {
             "name": "gatsby-transformer-sharp",
-            "version": "^1.6.26"
+            "version": "next"
           },
           {
             "name": "react-burger-menu",
@@ -1755,10 +1751,6 @@
           {
             "name": "react-reveal",
             "version": "^0.7.3"
-          },
-          {
-            "name": "vis",
-            "version": "^4.21.0"
           },
           {
             "name": "vis-react",
@@ -1910,12 +1902,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-08-21T12:20:32.142Z",
+      "buildTime": "2018-08-22T12:03:27.269Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6bdecc624a1082a554e4fcc0b9961e50",
+        "contentDigest": "2f7d01faeeca87f26d65024a864234dd",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1925,7 +1917,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "29b5cee10d643efa841686866df0663b",
+        "contentDigest": "31e98e1fbbc1d38316bb57cef8545e72",
         "type": "Directory",
         "description": "Directory \"content/projects\"",
         "owner": "gatsby-source-filesystem"
@@ -1937,7 +1929,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2018-08-19T09:47:37.389Z",
-      "accessTime": "2018-08-21T12:20:36.441Z",
+      "accessTime": "2018-08-22T12:03:30.789Z",
       "changeTime": "2018-08-19T09:47:37.389Z",
       "birthTime": "2018-08-19T09:47:37.381Z",
       "root": "/",
@@ -1955,11 +1947,11 @@
       "blksize": 4194304,
       "ino": 23240422,
       "blocks": 0,
-      "atimeMs": 1534854036441.0337,
+      "atimeMs": 1534939410788.6125,
       "mtimeMs": 1534672057388.7566,
       "ctimeMs": 1534672057388.7566,
       "birthtimeMs": 1534672057380.8408,
-      "atime": "2018-08-21T12:20:36.441Z",
+      "atime": "2018-08-22T12:03:30.789Z",
       "mtime": "2018-08-19T09:47:37.389Z",
       "ctime": "2018-08-19T09:47:37.389Z",
       "birthtime": "2018-08-19T09:47:37.381Z"
@@ -1969,7 +1961,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "cb672e84da8d9079c9f958bd4a910761",
+        "contentDigest": "a001729d22a68cddcda7900fbe862d8e",
         "type": "Directory",
         "description": "Directory \"content/projects/2017-10-25\"",
         "owner": "gatsby-source-filesystem"
@@ -1981,7 +1973,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-08-19T09:47:37.383Z",
-      "accessTime": "2018-08-21T12:20:36.444Z",
+      "accessTime": "2018-08-22T12:03:30.791Z",
       "changeTime": "2018-08-19T09:47:37.383Z",
       "birthTime": "2018-08-19T09:47:37.381Z",
       "root": "/",
@@ -1999,11 +1991,11 @@
       "blksize": 4194304,
       "ino": 23240423,
       "blocks": 0,
-      "atimeMs": 1534854036443.5557,
+      "atimeMs": 1534939410790.524,
       "mtimeMs": 1534672057382.7434,
       "ctimeMs": 1534672057382.7434,
       "birthtimeMs": 1534672057380.8826,
-      "atime": "2018-08-21T12:20:36.444Z",
+      "atime": "2018-08-22T12:03:30.791Z",
       "mtime": "2018-08-19T09:47:37.383Z",
       "ctime": "2018-08-19T09:47:37.383Z",
       "birthtime": "2018-08-19T09:47:37.381Z"
@@ -2013,7 +2005,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4c9d5947be1ceffc36028aa607037ea4",
+        "contentDigest": "2927763cb359cd4ac0bf29f2822ea9d1",
         "type": "Directory",
         "description": "Directory \"content/projects/2017-10-26\"",
         "owner": "gatsby-source-filesystem"
@@ -2025,7 +2017,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-08-19T09:47:37.385Z",
-      "accessTime": "2018-08-21T12:20:36.444Z",
+      "accessTime": "2018-08-22T12:03:30.791Z",
       "changeTime": "2018-08-19T09:47:37.385Z",
       "birthTime": "2018-08-19T09:47:37.383Z",
       "root": "/",
@@ -2043,11 +2035,11 @@
       "blksize": 4194304,
       "ino": 23240426,
       "blocks": 0,
-      "atimeMs": 1534854036443.5364,
+      "atimeMs": 1534939410790.5427,
       "mtimeMs": 1534672057385.2478,
       "ctimeMs": 1534672057385.2478,
       "birthtimeMs": 1534672057382.939,
-      "atime": "2018-08-21T12:20:36.444Z",
+      "atime": "2018-08-22T12:03:30.791Z",
       "mtime": "2018-08-19T09:47:37.385Z",
       "ctime": "2018-08-19T09:47:37.385Z",
       "birthtime": "2018-08-19T09:47:37.383Z"
@@ -2057,7 +2049,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e751968c74214f7362a872dc45aa9bc7",
+        "contentDigest": "bfe624e1346718f9ec94f334d910e3f4",
         "type": "Directory",
         "description": "Directory \"content/projects/2017-10-27\"",
         "owner": "gatsby-source-filesystem"
@@ -2069,7 +2061,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-08-19T09:47:37.386Z",
-      "accessTime": "2018-08-21T12:20:36.444Z",
+      "accessTime": "2018-08-22T12:03:30.791Z",
       "changeTime": "2018-08-19T09:47:37.386Z",
       "birthTime": "2018-08-19T09:47:37.385Z",
       "root": "/",
@@ -2087,11 +2079,11 @@
       "blksize": 4194304,
       "ino": 23240429,
       "blocks": 0,
-      "atimeMs": 1534854036443.5808,
+      "atimeMs": 1534939410790.5557,
       "mtimeMs": 1534672057385.6987,
       "ctimeMs": 1534672057385.6987,
       "birthtimeMs": 1534672057385.4336,
-      "atime": "2018-08-21T12:20:36.444Z",
+      "atime": "2018-08-22T12:03:30.791Z",
       "mtime": "2018-08-19T09:47:37.386Z",
       "ctime": "2018-08-19T09:47:37.386Z",
       "birthtime": "2018-08-19T09:47:37.385Z"
@@ -2101,7 +2093,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2d465a6b665d31605c4eb915f1aa78f0",
+        "contentDigest": "606d66c4d3c7f7ac0b81501046d02f56",
         "type": "Directory",
         "description": "Directory \"content/projects/2017-10-28\"",
         "owner": "gatsby-source-filesystem"
@@ -2113,7 +2105,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-08-19T09:47:37.389Z",
-      "accessTime": "2018-08-21T12:20:36.444Z",
+      "accessTime": "2018-08-22T12:03:30.791Z",
       "changeTime": "2018-08-19T09:47:37.389Z",
       "birthTime": "2018-08-19T09:47:37.389Z",
       "root": "/",
@@ -2131,61 +2123,14 @@
       "blksize": 4194304,
       "ino": 23240432,
       "blocks": 0,
-      "atimeMs": 1534854036443.5989,
+      "atimeMs": 1534939410790.5686,
       "mtimeMs": 1534672057389.0195,
       "ctimeMs": 1534672057389.0195,
       "birthtimeMs": 1534672057388.7488,
-      "atime": "2018-08-21T12:20:36.444Z",
+      "atime": "2018-08-22T12:03:30.791Z",
       "mtime": "2018-08-19T09:47:37.389Z",
       "ctime": "2018-08-19T09:47:37.389Z",
       "birthtime": "2018-08-19T09:47:37.389Z"
-    },
-    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file": {
-      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file",
-      "children": [
-        "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "5ced2e3ea6e36145539483b62fb03920",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "description": "File \"content/projects/2017-10-27/index.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "projects",
-      "absolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md",
-      "relativePath": "2017-10-27/index.md",
-      "extension": "md",
-      "size": 855,
-      "prettySize": "855 B",
-      "modifiedTime": "2018-08-19T09:47:37.386Z",
-      "accessTime": "2018-08-21T02:46:37.599Z",
-      "changeTime": "2018-08-19T09:47:37.386Z",
-      "birthTime": "2018-08-19T09:47:37.385Z",
-      "root": "/",
-      "dir": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "2017-10-27",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 23240430,
-      "blocks": 8,
-      "atimeMs": 1534819597599.2324,
-      "mtimeMs": 1534672057385.5889,
-      "ctimeMs": 1534672057385.5889,
-      "birthtimeMs": 1534672057385.4854,
-      "atime": "2018-08-21T02:46:37.599Z",
-      "mtime": "2018-08-19T09:47:37.386Z",
-      "ctime": "2018-08-19T09:47:37.386Z",
-      "birthtime": "2018-08-19T09:47:37.385Z"
     },
     "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/index.md absPath of file": {
       "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/index.md absPath of file",
@@ -2207,7 +2152,7 @@
       "size": 840,
       "prettySize": "840 B",
       "modifiedTime": "2018-08-19T09:47:37.383Z",
-      "accessTime": "2018-08-21T02:46:37.599Z",
+      "accessTime": "2018-08-19T16:25:47.774Z",
       "changeTime": "2018-08-19T09:47:37.383Z",
       "birthTime": "2018-08-19T09:47:37.383Z",
       "root": "/",
@@ -2225,11 +2170,11 @@
       "blksize": 4194304,
       "ino": 23240425,
       "blocks": 8,
-      "atimeMs": 1534819597599.2102,
+      "atimeMs": 1534695947774.4587,
       "mtimeMs": 1534672057382.8293,
       "ctimeMs": 1534672057382.8293,
       "birthtimeMs": 1534672057382.7354,
-      "atime": "2018-08-21T02:46:37.599Z",
+      "atime": "2018-08-19T16:25:47.774Z",
       "mtime": "2018-08-19T09:47:37.383Z",
       "ctime": "2018-08-19T09:47:37.383Z",
       "birthtime": "2018-08-19T09:47:37.383Z"
@@ -2254,7 +2199,7 @@
       "size": 833,
       "prettySize": "833 B",
       "modifiedTime": "2018-08-19T09:47:37.385Z",
-      "accessTime": "2018-08-21T02:46:37.599Z",
+      "accessTime": "2018-08-19T16:25:47.775Z",
       "changeTime": "2018-08-19T09:47:37.385Z",
       "birthTime": "2018-08-19T09:47:37.385Z",
       "root": "/",
@@ -2272,13 +2217,60 @@
       "blksize": 4194304,
       "ino": 23240428,
       "blocks": 8,
-      "atimeMs": 1534819597599.2236,
+      "atimeMs": 1534695947774.5703,
       "mtimeMs": 1534672057385.3413,
       "ctimeMs": 1534672057385.3413,
       "birthtimeMs": 1534672057385.24,
-      "atime": "2018-08-21T02:46:37.599Z",
+      "atime": "2018-08-19T16:25:47.775Z",
       "mtime": "2018-08-19T09:47:37.385Z",
       "ctime": "2018-08-19T09:47:37.385Z",
+      "birthtime": "2018-08-19T09:47:37.385Z"
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file",
+      "children": [
+        "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5ced2e3ea6e36145539483b62fb03920",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"content/projects/2017-10-27/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md",
+      "relativePath": "2017-10-27/index.md",
+      "extension": "md",
+      "size": 855,
+      "prettySize": "855 B",
+      "modifiedTime": "2018-08-19T09:47:37.386Z",
+      "accessTime": "2018-08-21T13:30:40.042Z",
+      "changeTime": "2018-08-19T09:47:37.386Z",
+      "birthTime": "2018-08-19T09:47:37.385Z",
+      "root": "/",
+      "dir": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2017-10-27",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 23240430,
+      "blocks": 8,
+      "atimeMs": 1534858240041.654,
+      "mtimeMs": 1534672057385.5889,
+      "ctimeMs": 1534672057385.5889,
+      "birthtimeMs": 1534672057385.4854,
+      "atime": "2018-08-21T13:30:40.042Z",
+      "mtime": "2018-08-19T09:47:37.386Z",
+      "ctime": "2018-08-19T09:47:37.386Z",
       "birthtime": "2018-08-19T09:47:37.385Z"
     },
     "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/index.md absPath of file": {
@@ -2301,7 +2293,7 @@
       "size": 591,
       "prettySize": "591 B",
       "modifiedTime": "2018-08-19T09:47:37.389Z",
-      "accessTime": "2018-08-21T02:46:37.599Z",
+      "accessTime": "2018-08-21T13:30:40.042Z",
       "changeTime": "2018-08-19T09:47:37.389Z",
       "birthTime": "2018-08-19T09:47:37.389Z",
       "root": "/",
@@ -2319,11 +2311,11 @@
       "blksize": 4194304,
       "ino": 23240433,
       "blocks": 8,
-      "atimeMs": 1534819597599.2463,
+      "atimeMs": 1534858240041.6658,
       "mtimeMs": 1534672057388.9058,
       "ctimeMs": 1534672057388.9058,
       "birthtimeMs": 1534672057388.8093,
-      "atime": "2018-08-21T02:46:37.599Z",
+      "atime": "2018-08-21T13:30:40.042Z",
       "mtime": "2018-08-19T09:47:37.389Z",
       "ctime": "2018-08-19T09:47:37.389Z",
       "birthtime": "2018-08-19T09:47:37.389Z"
@@ -2348,7 +2340,7 @@
       "size": 209762,
       "prettySize": "210 kB",
       "modifiedTime": "2018-08-19T09:47:37.383Z",
-      "accessTime": "2018-08-21T02:46:37.599Z",
+      "accessTime": "2018-08-21T13:30:40.042Z",
       "changeTime": "2018-08-19T09:47:37.383Z",
       "birthTime": "2018-08-19T09:47:37.381Z",
       "root": "/",
@@ -2366,11 +2358,11 @@
       "blksize": 4194304,
       "ino": 23240424,
       "blocks": 416,
-      "atimeMs": 1534819597599.2053,
+      "atimeMs": 1534858240041.6318,
       "mtimeMs": 1534672057382.554,
       "ctimeMs": 1534672057382.554,
       "birthtimeMs": 1534672057380.9636,
-      "atime": "2018-08-21T02:46:37.599Z",
+      "atime": "2018-08-21T13:30:40.042Z",
       "mtime": "2018-08-19T09:47:37.383Z",
       "ctime": "2018-08-19T09:47:37.383Z",
       "birthtime": "2018-08-19T09:47:37.381Z"
@@ -2395,7 +2387,7 @@
       "size": 292267,
       "prettySize": "292 kB",
       "modifiedTime": "2018-08-19T09:47:37.385Z",
-      "accessTime": "2018-08-21T02:46:37.599Z",
+      "accessTime": "2018-08-21T13:30:40.042Z",
       "changeTime": "2018-08-19T09:47:37.385Z",
       "birthTime": "2018-08-19T09:47:37.383Z",
       "root": "/",
@@ -2413,11 +2405,11 @@
       "blksize": 4194304,
       "ino": 23240427,
       "blocks": 576,
-      "atimeMs": 1534819597599.2192,
+      "atimeMs": 1534858240041.6433,
       "mtimeMs": 1534672057385.0876,
       "ctimeMs": 1534672057385.0876,
       "birthtimeMs": 1534672057382.9937,
-      "atime": "2018-08-21T02:46:37.599Z",
+      "atime": "2018-08-21T13:30:40.042Z",
       "mtime": "2018-08-19T09:47:37.385Z",
       "ctime": "2018-08-19T09:47:37.385Z",
       "birthtime": "2018-08-19T09:47:37.383Z"
@@ -2430,35 +2422,6 @@
         "contentDigest": "6fddcc062738759fdf558ef34a022b15",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file",
-      "internal": {
-        "content": "---\nclient: \"SmartTriangle\"\ntitle: \"SmartTriangle - Make Triangles smart!\"\ncover: \"./smartTriangle.jpg\"\ndate: \"2017-10-27\"\nservice: \"Art Direction\"\n---\n# Description\n\nFar far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands.",
-        "type": "MarkdownRemark",
-        "contentDigest": "0cc344767e4fa1f39b03319f8479c361",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "SmartTriangle - Make Triangles smart!",
-        "client": "SmartTriangle",
-        "cover": "./smartTriangle.jpg",
-        "date": "2017-10-27",
-        "service": "Art Direction",
-        "_PARENT": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file",
-        "parent": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "# Description\n\nFar far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands.",
-      "fileAbsolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md",
-      "fields": {
-        "slug": "/smart-triangle-make-triangles-smart"
       }
     },
     "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/index.md absPath of file >>> MarkdownRemark": {
@@ -2490,16 +2453,6 @@
         "slug": "/blob-sphere-make-spheres-blob"
       }
     },
-    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg absPath of file",
-      "internal": {
-        "contentDigest": "224143b7440585785b0d46827cc65219",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/index.md absPath of file >>> MarkdownRemark",
       "children": [],
@@ -2527,6 +2480,45 @@
       "fileAbsolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/index.md",
       "fields": {
         "slug": "/cube-round-make-cubes-round"
+      }
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file",
+      "internal": {
+        "content": "---\nclient: \"SmartTriangle\"\ntitle: \"SmartTriangle - Make Triangles smart!\"\ncover: \"./smartTriangle.jpg\"\ndate: \"2017-10-27\"\nservice: \"Art Direction\"\n---\n# Description\n\nFar far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands.",
+        "type": "MarkdownRemark",
+        "contentDigest": "0cc344767e4fa1f39b03319f8479c361",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "SmartTriangle - Make Triangles smart!",
+        "client": "SmartTriangle",
+        "cover": "./smartTriangle.jpg",
+        "date": "2017-10-27",
+        "service": "Art Direction",
+        "_PARENT": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file",
+        "parent": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "# Description\n\nFar far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands.",
+      "fileAbsolutePath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md",
+      "fields": {
+        "slug": "/smart-triangle-make-triangles-smart"
+      }
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg absPath of file",
+      "internal": {
+        "contentDigest": "224143b7440585785b0d46827cc65219",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
       }
     },
     "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/index.md absPath of file >>> MarkdownRemark": {
@@ -2578,7 +2570,7 @@
       "size": 404825,
       "prettySize": "405 kB",
       "modifiedTime": "2018-08-19T09:47:37.389Z",
-      "accessTime": "2018-08-21T02:46:37.599Z",
+      "accessTime": "2018-08-21T13:30:40.042Z",
       "changeTime": "2018-08-19T09:47:37.389Z",
       "birthTime": "2018-08-19T09:47:37.386Z",
       "root": "/",
@@ -2596,24 +2588,14 @@
       "blksize": 4194304,
       "ino": 23240431,
       "blocks": 792,
-      "atimeMs": 1534819597599.237,
+      "atimeMs": 1534858240041.6582,
       "mtimeMs": 1534672057388.5735,
       "ctimeMs": 1534672057388.5735,
       "birthtimeMs": 1534672057385.6926,
-      "atime": "2018-08-21T02:46:37.599Z",
+      "atime": "2018-08-21T13:30:40.042Z",
       "mtime": "2018-08-19T09:47:37.389Z",
       "ctime": "2018-08-19T09:47:37.389Z",
       "birthtime": "2018-08-19T09:47:37.386Z"
-    },
-    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file",
-      "internal": {
-        "contentDigest": "3cde51e22072224ef24b6f5b0fe45a1f",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/lekoarts.jpg absPath of file": {
       "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/lekoarts.jpg absPath of file",
@@ -2635,7 +2617,7 @@
       "size": 472968,
       "prettySize": "473 kB",
       "modifiedTime": "2018-08-19T09:47:37.392Z",
-      "accessTime": "2018-08-21T02:46:37.599Z",
+      "accessTime": "2018-08-21T13:30:40.042Z",
       "changeTime": "2018-08-19T09:47:37.392Z",
       "birthTime": "2018-08-19T09:47:37.389Z",
       "root": "/",
@@ -2653,14 +2635,24 @@
       "blksize": 4194304,
       "ino": 23240434,
       "blocks": 928,
-      "atimeMs": 1534819597599.251,
+      "atimeMs": 1534858240041.67,
       "mtimeMs": 1534672057392.106,
       "ctimeMs": 1534672057392.106,
       "birthtimeMs": 1534672057389.0134,
-      "atime": "2018-08-21T02:46:37.599Z",
+      "atime": "2018-08-21T13:30:40.042Z",
       "mtime": "2018-08-19T09:47:37.392Z",
       "ctime": "2018-08-19T09:47:37.392Z",
       "birthtime": "2018-08-19T09:47:37.389Z"
+    },
+    "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file",
+      "internal": {
+        "contentDigest": "3cde51e22072224ef24b6f5b0fe45a1f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/lekoarts.jpg absPath of file >> ImageSharp": {
       "id": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/lekoarts.jpg absPath of file >> ImageSharp",
@@ -2670,29 +2662,6 @@
         "contentDigest": "b08fd96a9f0f169a01466956bb867132",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "SitePage /smart-triangle-make-triangles-smart": {
-      "layout": "index",
-      "jsonName": "smart-triangle-make-triangles-smart.json",
-      "internalComponentName": "ComponentSmartTriangleMakeTrianglesSmart",
-      "path": "/smart-triangle-make-triangles-smart",
-      "component": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/templates/project.jsx",
-      "componentChunkName": "component---src-templates-project-jsx",
-      "context": {
-        "slug": "/smart-triangle-make-triangles-smart"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/templates/project.jsx",
-      "id": "SitePage /smart-triangle-make-triangles-smart",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "4467e1dadd48d5f0d2ed7d279ea67726",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
       }
     },
     "SitePage /blob-sphere-make-spheres-blob": {
@@ -2713,7 +2682,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "891701afe48df54f9e503e94c524fbb9",
+        "contentDigest": "71f6f1ca8f4d544cd8974902b8ed18ca",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2736,7 +2705,30 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8f7d1c05c6acfa998586142e3b7f05e8",
+        "contentDigest": "95aa123846adda81cce09d628ba7834d",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /smart-triangle-make-triangles-smart": {
+      "layout": "index",
+      "jsonName": "smart-triangle-make-triangles-smart.json",
+      "internalComponentName": "ComponentSmartTriangleMakeTrianglesSmart",
+      "path": "/smart-triangle-make-triangles-smart",
+      "component": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/templates/project.jsx",
+      "componentChunkName": "component---src-templates-project-jsx",
+      "context": {
+        "slug": "/smart-triangle-make-triangles-smart"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/templates/project.jsx",
+      "id": "SitePage /smart-triangle-make-triangles-smart",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "03143e3dfd5aef33172a6f5b76b29851",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2759,7 +2751,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2e3865b90616cec418892a4e9e2b7add",
+        "contentDigest": "78a8830b070956ca77716f9bf431d978",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2780,7 +2772,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d246ef04999db5430a902263fcd94f06",
+        "contentDigest": "dcf685c5413f33b42d4f078728894aed",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2801,7 +2793,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "413ea880b0803db8704a7c0985581c51",
+        "contentDigest": "d7179b3d820a5d95bc3aae60229c7ac8",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2822,7 +2814,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4b7e1f6ebfbbe352ccff2095199b409f",
+        "contentDigest": "7fa42a9c811d0bdb1bb6f263e3b62976",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2843,7 +2835,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4dc26c25c78b0ba1379b4537c119b3eb",
+        "contentDigest": "c44f93eac53b442d7d04e396c6ee6fef",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2864,7 +2856,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "374b0efa6db0101746f20757ba5e1434",
+        "contentDigest": "0979bb59a36ebcc78b28d9793d51341f",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2885,7 +2877,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6529392768030eaf1d002d64ef153b34",
+        "contentDigest": "8920b73786f0246362b322728c8d13ba",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2906,7 +2898,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7f553338804c74e2badc12a2a3627413",
+        "contentDigest": "b0939bc02fe70d7816c314dd69c7e175",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2927,7 +2919,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "971ff503c830755c0dcbdddf7d3c65ed",
+        "contentDigest": "d6c8857c5e5196568fc2d6af8595de38",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2948,7 +2940,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "62a918b3647ec5a8e9d1618e2c1e44a2",
+        "contentDigest": "ca762d87bb3e379b0321e771b10330f1",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -2956,10 +2948,19 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "ba11a8be8d540b50961d5c865ccc552f"
+    "PLUGINS_HASH": "dd64829b50e9ce9885f5e2c71baa9925"
   },
   "componentDataDependencies": {
     "nodes": {
+      "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file >>> MarkdownRemark": [
+        "/smart-triangle-make-triangles-smart"
+      ],
+      "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file": [
+        "/smart-triangle-make-triangles-smart"
+      ],
+      "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file >> ImageSharp": [
+        "/smart-triangle-make-triangles-smart"
+      ],
       "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-26/index.md absPath of file >>> MarkdownRemark": [
         "/cube-round-make-cubes-round"
       ],
@@ -2977,15 +2978,6 @@
       ],
       "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-25/blobSphere.jpg absPath of file >> ImageSharp": [
         "/blob-sphere-make-spheres-blob"
-      ],
-      "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file >>> MarkdownRemark": [
-        "/smart-triangle-make-triangles-smart"
-      ],
-      "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file": [
-        "/smart-triangle-make-triangles-smart"
-      ],
-      "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file >> ImageSharp": [
-        "/smart-triangle-make-triangles-smart"
       ],
       "/Users/fernandodealmeidacoelho/Code/bolha-social-website/content/projects/2017-10-28/index.md absPath of file >>> MarkdownRemark": [
         "/leko-arts-your-theme-creator"

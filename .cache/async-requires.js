@@ -16,9 +16,9 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/layout-index.json"),
-  "smart-triangle-make-triangles-smart.json": require("gatsby-module-loader?name=path---smart-triangle-make-triangles-smart!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/smart-triangle-make-triangles-smart.json"),
   "blob-sphere-make-spheres-blob.json": require("gatsby-module-loader?name=path---blob-sphere-make-spheres-blob!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/blob-sphere-make-spheres-blob.json"),
   "cube-round-make-cubes-round.json": require("gatsby-module-loader?name=path---cube-round-make-cubes-round!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/cube-round-make-cubes-round.json"),
+  "smart-triangle-make-triangles-smart.json": require("gatsby-module-loader?name=path---smart-triangle-make-triangles-smart!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/smart-triangle-make-triangles-smart.json"),
   "leko-arts-your-theme-creator.json": require("gatsby-module-loader?name=path---leko-arts-your-theme-creator!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/leko-arts-your-theme-creator.json"),
   "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/dev-404-page.json"),
   "404.json": require("gatsby-module-loader?name=path---404!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/404.json"),

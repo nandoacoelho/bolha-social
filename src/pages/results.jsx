@@ -1,9 +1,18 @@
 import React, { Component } from "react";
-import firebase from "firebase";
+import * as firebase from "firebase/app";
+import "firebase/database";
 import ResultsHero from "../components/ResultsHero/ResultsHero";
 import ResultsLoading from "../components/ResultsLoading/ResultsLoading";
 
 const Storage = window.localStorage;
+const config = {
+  apiKey: process.env.GATSBY_GOOGLE_API_KEY,
+  authDomain: process.env.GATSBY_AUTH_DOMAIN,
+  databaseURL: process.env.GATSBY_DATABASE_URL,
+  projectId: "web-behavior",
+  storageBucket: "",
+  messagingSenderId: process.env.GATSBY_GOOGLE_MESSAGING_SENDER_ID
+};
 
 class Results extends Component {
   constructor() {
@@ -30,15 +39,6 @@ class Results extends Component {
   }
 
   initFirebase = () => {
-    var config = {
-      apiKey: "AIzaSyBTJb1GOaYeWRLUD8NcTUt9GrTwR6coQMc",
-      authDomain: "web-behavior.firebaseapp.com",
-      databaseURL: "https://web-behavior.firebaseio.com",
-      projectId: "web-behavior",
-      storageBucket: "",
-      messagingSenderId: "112299024994"
-    };
-
     firebase.initializeApp(config);
 
     firebase

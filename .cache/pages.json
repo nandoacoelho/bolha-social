@@ -3,13 +3,6 @@
         "componentChunkName": "component---src-templates-project-jsx",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "smart-triangle-make-triangles-smart.json",
-        "path": "/smart-triangle-make-triangles-smart"
-    },
-    {
-        "componentChunkName": "component---src-templates-project-jsx",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-jsx",
         "jsonName": "blob-sphere-make-spheres-blob.json",
         "path": "/blob-sphere-make-spheres-blob"
     },
@@ -19,6 +12,13 @@
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
         "jsonName": "cube-round-make-cubes-round.json",
         "path": "/cube-round-make-cubes-round"
+    },
+    {
+        "componentChunkName": "component---src-templates-project-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "smart-triangle-make-triangles-smart.json",
+        "path": "/smart-triangle-make-triangles-smart"
     },
     {
         "componentChunkName": "component---src-templates-project-jsx",
