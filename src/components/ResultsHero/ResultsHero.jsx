@@ -91,15 +91,15 @@ class ResultsHero extends Component {
                 }
               },
               autoResize: true,
-              height: "55%",
+              height: "100%",
               width: "100%",
               physics: {
-                stabilization: true,
+                stabilization: false,
                 minVelocity: 0.01,
-                minVelocity: 0.02,
+                maxVelocity: 10,
                 solver: "repulsion",
                 repulsion: {
-                  nodeDistance: 100
+                  nodeDistance: 90
                 }
               },
               interaction: {

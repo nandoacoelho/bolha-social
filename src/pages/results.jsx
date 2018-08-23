@@ -4,7 +4,8 @@ import "firebase/database";
 import ResultsHero from "../components/ResultsHero/ResultsHero";
 import ResultsLoading from "../components/ResultsLoading/ResultsLoading";
 
-const Storage = window.localStorage;
+const Storage = typeof window !== "undefined" && window.localStorage;
+
 const config = {
   apiKey: process.env.GATSBY_GOOGLE_API_KEY,
   authDomain: process.env.GATSBY_AUTH_DOMAIN,
@@ -21,7 +22,9 @@ class Results extends Component {
     this.state = {
       data: null,
       userId:
-        Storage.getItem("userId") || window.location.hash.replace("#", ""),
+        (typeof window !== "undefined" &&
+          window.location.hash.replace("#", "")) ||
+        (Storage && Storage.getItem("userId")),
       isLoading: true
     };
     this.app = null;
@@ -47,6 +50,7 @@ class Results extends Component {
       .once("value")
       .then(snapshot => {
         const data = snapshot.val();
+
         if (data) {
           const dataList = Object.keys(data).map(key => data[key]);
 

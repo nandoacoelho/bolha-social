@@ -12,15 +12,18 @@ class MainLayout extends Component {
   constructor() {
     super();
     this.state = {
-      isResults: window.location.pathname === "/results/"
+      isResults:
+        typeof window !== "undefined" &&
+        window.location.pathname === "/results/"
     };
   }
 
   componentDidMount() {
-    console.log("eita");
     window.onhashchange = () => {
       this.setState({
-        isResults: window.location.pathname === "/results/"
+        isResults:
+          typeof window !== "undefined" &&
+          window.location.pathname === "/results/"
       });
     };
   }
@@ -28,7 +31,7 @@ class MainLayout extends Component {
   render() {
     const { children } = this.props;
     const { isResults } = this.state;
-    console.log("isResults", isResults);
+
     return (
       <React.Fragment>
         <Helmet>
@@ -36,7 +39,8 @@ class MainLayout extends Component {
           <link rel="apple-touch-icon" href={appleTouchIcon} />
         </Helmet>
         <SEO />
-        {window.location.pathname === "/results/" ? (
+        {typeof window !== "undefined" &&
+        window.location.pathname === "/results/" ? (
           <NavigationResults />
         ) : (
           <Navigation />
