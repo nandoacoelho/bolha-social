@@ -2,8 +2,8 @@
 const preferDefault = m => m && m.default || m
 
 exports.components = {
+  "component---node-modules-gatsby-plugin-offline-app-shell-js": require("gatsby-module-loader?name=component---node-modules-gatsby-plugin-offline-app-shell-js!/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-offline/app-shell.js"),
   "component---src-templates-project-jsx": require("gatsby-module-loader?name=component---src-templates-project-jsx!/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/templates/project.jsx"),
-  "component---cache-dev-404-page-js": require("gatsby-module-loader?name=component---cache-dev-404-page-js!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/dev-404-page.js"),
   "component---src-pages-404-jsx": require("gatsby-module-loader?name=component---src-pages-404-jsx!/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/404.jsx"),
   "component---src-pages-bubble-jsx": require("gatsby-module-loader?name=component---src-pages-bubble-jsx!/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/bubble.jsx"),
   "component---src-pages-contact-jsx": require("gatsby-module-loader?name=component---src-pages-contact-jsx!/Users/fernandodealmeidacoelho/Code/bolha-social-website/src/pages/contact.jsx"),
@@ -16,11 +16,11 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/layout-index.json"),
-  "blob-sphere-make-spheres-blob.json": require("gatsby-module-loader?name=path---blob-sphere-make-spheres-blob!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/blob-sphere-make-spheres-blob.json"),
+  "offline-plugin-app-shell-fallback.json": require("gatsby-module-loader?name=path---offline-plugin-app-shell-fallback!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/offline-plugin-app-shell-fallback.json"),
   "cube-round-make-cubes-round.json": require("gatsby-module-loader?name=path---cube-round-make-cubes-round!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/cube-round-make-cubes-round.json"),
-  "smart-triangle-make-triangles-smart.json": require("gatsby-module-loader?name=path---smart-triangle-make-triangles-smart!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/smart-triangle-make-triangles-smart.json"),
+  "blob-sphere-make-spheres-blob.json": require("gatsby-module-loader?name=path---blob-sphere-make-spheres-blob!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/blob-sphere-make-spheres-blob.json"),
   "leko-arts-your-theme-creator.json": require("gatsby-module-loader?name=path---leko-arts-your-theme-creator!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/leko-arts-your-theme-creator.json"),
-  "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/dev-404-page.json"),
+  "smart-triangle-make-triangles-smart.json": require("gatsby-module-loader?name=path---smart-triangle-make-triangles-smart!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/smart-triangle-make-triangles-smart.json"),
   "404.json": require("gatsby-module-loader?name=path---404!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/404.json"),
   "bubble.json": require("gatsby-module-loader?name=path---bubble!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/bubble.json"),
   "contact.json": require("gatsby-module-loader?name=path---contact!/Users/fernandodealmeidacoelho/Code/bolha-social-website/.cache/json/contact.json"),

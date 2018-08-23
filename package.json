@@ -50,7 +50,7 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build && sh deploy.sh",
     "dev": "gatsby develop -o",
     "postinstall": "node ./bin/hello.js"
   },
