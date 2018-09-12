@@ -4,10 +4,10 @@
 @import "../../config/variables";
 
 .container {
-  padding-top: 5.25rem;
+  padding-top: 7rem;
 
-  @include for-tablet-portrait-up() {
-    padding-top: 6.7rem;
+  @include for-tablet-portrait-up {
+    padding-top: 7.5rem;
   }
 }
 
