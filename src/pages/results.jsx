@@ -41,17 +41,18 @@ class Results extends Component {
     } else {
       this.initFirebase();
     }
+    // this.registerEveryOnesData();
   }
 
   registerEveryOnesData() {
-    console.log("Writing general data");
+    console.log("Getting general data");
     firebase
       .database()
       .ref("/history-data/")
       .once("value")
       .then(snapshot => {
         const data = snapshot.val();
-
+        console.log("Got data");
         const flattenedHistories = flatten(
           Object.keys(data).map(dataItem => {
             const localData = data[dataItem]["history-gist"];
@@ -94,6 +95,7 @@ class Results extends Component {
           totalNumberOfHistories: flattenedHistories.length
         };
 
+        console.log("Writing general data");
         firebase
           .database()
           .ref("/general-gist/")
@@ -104,8 +106,7 @@ class Results extends Component {
   initFirebase = () => {
     firebase.initializeApp(config);
 
-    this.registerEveryOnesData();
-
+    console.log("Getting personal data");
     firebase
       .database()
       .ref("/history-data/" + this.state.userId + "/history-gist/")
