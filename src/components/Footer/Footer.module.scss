@@ -1,6 +1,7 @@
 @import "../../../config/variables";
 
 .footer {
+  z-index: 10;
   margin: 5rem 0;
   padding: 1rem $distance;
   text-align: center;
