@@ -1,0 +1,65 @@
+@import "../../../config/variables";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  @include for-tablet-portrait-up {
+    flex-direction: row-reverse;
+  }
+}
+
+.heroImage {
+  z-index: 0;
+  top: 0;
+  user-select: none;
+  padding-top: 5.25rem;
+
+  @include for-tablet-portrait-up {
+    position: fixed;
+    padding-top: 6.7rem;
+    left: -20rem;
+    height: calc(100vh - 7.25rem);
+  }
+
+  @include for-tablet-landscape-up {
+    left: 0;
+  }
+
+  @include for-big-desktop-up {
+    left: 0;
+  }
+}
+
+.heroText {
+  z-index: 1;
+  padding: 0 2rem;
+
+  @include for-tablet-portrait-up {
+    max-width: 50vw;
+    padding: 10rem 0rem 10rem 5rem;
+  }
+
+  @include for-desktop-up {
+    max-width: 50vw;
+    padding: 10rem 10rem 10rem 0;
+  }
+
+  @include for-big-desktop-up {
+    padding: 15rem 10rem 15rem 8rem;
+  }
+}
+
+.body {
+  font-size: 1rem;
+}
+
+.buttonWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.buttonWrapper a {
+  margin: 30px 50px 30px 0;
+}
