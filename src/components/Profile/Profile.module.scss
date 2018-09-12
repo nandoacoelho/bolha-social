@@ -11,7 +11,7 @@
 }
 
 .text {
-  font-size: 2rem;
+  font-size: 1.5rem;
 
   @include for-tablet-landscape-up {
     font-size: 0.8rem;
@@ -28,4 +28,8 @@
 
 .buttonWrapper {
   padding: 0 3rem;
+
+  @include for-tablet-landscape-up {
+    padding: 0 6rem;
+  }
 }
