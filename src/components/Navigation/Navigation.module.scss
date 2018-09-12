@@ -3,7 +3,15 @@
 .wrapper {
   align-items: center;
   display: flex;
-  padding: 0 16rem;
+  padding: 0 3rem;
+
+  @include for-tablet-landscape-up {
+    padding: 0 10rem;
+  }
+
+  @include for-desktop-up {
+    padding: 0 16rem;
+  }
 
   a {
     color: $body-color;
@@ -77,7 +85,7 @@
 .mobileNav {
   background-color: $background-color;
   display: none;
-  height: 5.25rem;
+  height: 7rem;
   position: fixed;
   width: 100%;
   z-index: 100;

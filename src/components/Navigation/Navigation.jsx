@@ -46,18 +46,18 @@ export default class Navigation extends Component {
                 <Link to="/" activeClassName="active">
                   sua bolha
                 </Link>
+                <Link to="/team" activeClassName="active">
+                  equipe
+                </Link>
                 {/*<Link to="/what" activeClassName="active">
                   o que é
                 </Link>
                 <Link to="/share" activeClassName="active">
                   compartilhe
                 </Link>
-                <Link to="/team" activeClassName="active">
-                  equipe
-                </Link>
                 <Link to="/contact" activeClassName="active">
                   contato
-    </Link> */}
+                </Link> */}
               </span>
             </nav>
           </div>
@@ -75,12 +75,17 @@ export default class Navigation extends Component {
             <Menu
               isOpen={this.state.menuOpen}
               onStateChange={this.handleStateChange}
-              width="100%"
-            >
+              width="100%">
               <Link to="/" onClick={() => this.closeMenu()}>
                 <h1>{config.siteTitle}</h1>
               </Link>
               <Link
+                to="/team"
+                activeClassName="active"
+                onClick={() => this.closeMenu()}>
+                equipe
+              </Link>
+              {/*<Link
                 to="/"
                 activeClassName="active"
                 onClick={() => this.closeMenu()}
@@ -102,19 +107,13 @@ export default class Navigation extends Component {
                 compartilhe
               </Link>
               <Link
-                to="/team"
-                activeClassName="active"
-                onClick={() => this.closeMenu()}
-              >
-                equipe
-              </Link>
-              <Link
                 to="/contact"
                 activeClassName="active"
                 onClick={() => this.closeMenu()}
               >
                 contato
               </Link>
+            */}
             </Menu>
           </div>
         </div>
