@@ -1,7 +1,7 @@
 import React from "react";
 import { Fade } from "react-reveal";
 import styles from "./ShareHero.module.scss";
-import heroImage from "../../assets/images/share-hero.png";
+import heroImage from "../../assets/images/hero-share.png";
 import facebook from "../../assets/images/icon-facebook.png";
 import twitter from "../../assets/images/icon-twitter.png";
 import linkedin from "../../assets/images/icon-linkedin.png";

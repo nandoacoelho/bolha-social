@@ -1,7 +1,7 @@
 import React from "react";
 import { Fade } from "react-reveal";
 import styles from "./HomeHero.module.scss";
-import heroImage from "../../assets/images/hero.png";
+import heroImage from "../../assets/images/hero-home.png";
 import PrimaryButton from "../PrimaryButton/PrimaryButton";
 const HomeHero = () => (
   <div className={styles.wrapper}>

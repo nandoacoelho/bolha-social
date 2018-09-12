@@ -1,0 +1,92 @@
+@import "../../../config/variables";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  @include for-tablet-portrait-up {
+    flex-direction: row-reverse;
+  }
+}
+
+.heroImage {
+  z-index: 0;
+  top: 0;
+  user-select: none;
+
+  @include for-tablet-portrait-up {
+    position: fixed;
+    padding-top: 7.5rem;
+    left: -20rem;
+    height: 100vh;
+  }
+
+  @include for-tablet-landscape-up {
+    left: 0;
+  }
+
+  @include for-big-desktop-up {
+    left: 0;
+  }
+}
+
+.heroText {
+  z-index: 1;
+  padding: 0 2rem;
+
+  @include for-tablet-portrait-up {
+    max-width: 60vw;
+    padding: 8rem 0rem 10rem 5rem;
+  }
+
+  @include for-desktop-up {
+    max-width: 60vw;
+    padding: 8rem 10rem 10rem 0;
+  }
+
+  @include for-big-desktop-up {
+    padding: 10rem 20rem 15rem 8rem;
+  }
+}
+
+.body {
+  font-size: 1rem;
+}
+
+.description {
+  width: 300px;
+}
+
+.buttonWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.buttonWrapper a {
+  margin: 30px 50px 30px 0;
+}
+
+.inputWrapper {
+  margin: 1.5rem 0;
+
+  @include for-tablet-portrait-up {
+    margin: 1rem 0;
+  }
+}
+
+.inputWrapper input,
+.inputWrapper textarea {
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid #dedede;
+  padding: 10px 20px;
+
+  @include for-tablet-portrait-up {
+    width: 300px;
+  }
+}
+
+.inputWrapper textarea {
+  resize: none;
+}

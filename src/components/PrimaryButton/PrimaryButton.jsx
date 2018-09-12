@@ -2,7 +2,14 @@ import React from "react";
 import { Fade } from "react-reveal";
 import styles from "./PrimaryButton.module.scss";
 import Link from "gatsby-link";
-const PrimaryButton = ({ isLink, linkTo, title, isActive, icon }) => {
+const PrimaryButton = ({
+  isLink,
+  isSubmit = false,
+  linkTo,
+  title,
+  isActive,
+  icon
+}) => {
   return isLink ? (
     <a
       className={`${styles.primaryButton} ${isActive ? styles.active : ""}${
@@ -18,13 +25,11 @@ const PrimaryButton = ({ isLink, linkTo, title, isActive, icon }) => {
       )}
     </a>
   ) : (
-    <Link to={linkTo}>
-      <button
-        className={`${styles.primaryButton} ${isActive ? styles.active : ""}`}
-        type="button">
-        {title}
-      </button>
-    </Link>
+    <button
+      className={`${styles.primaryButton} ${isActive ? styles.active : ""}`}
+      type={isSubmit ? "submit" : "button"}>
+      {title}
+    </button>
   );
 };
 
