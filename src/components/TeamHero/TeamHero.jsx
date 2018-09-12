@@ -12,7 +12,7 @@ const julianaText =
 const marisText =
   "Formada pela UFRJ, com 10 anos de atuação no mercado publicitário, onde os últimos estavam focados em conteúdo digital, teve a oportunidade de trabalhar para agências e agora trabalho para TIM Brasil com conteúdo para os canais proprietários e desenvolvimento de maketing de influência para a empresa. Por isso, quis aproveitar o mestrado para pensar algo que pudesse devolver ao usuário a clareza sobre seus próprios dados.";
 const nandoText =
-  "Desenvolvedor de software na VTEX, já trabalhou com agências de design e projetos de grande porte. Fernando é o responsável pelo desenvolvimento da extensão deste website.";
+  "Desenvolvedor de software na VTEX, já trabalhou com agências de design e projetos de grande porte. Fernando é o responsável pelo desenvolvimento da extensão e deste website.";
 
 const TeamHero = () => (
   <div className={styles.wrapper}>
