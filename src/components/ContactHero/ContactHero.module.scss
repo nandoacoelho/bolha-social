@@ -17,12 +17,13 @@
   @include for-tablet-portrait-up {
     position: fixed;
     padding-top: 7.5rem;
-    left: -20rem;
-    height: 100vh;
+    left: -22rem;
+    height: auto;
   }
 
   @include for-tablet-landscape-up {
-    left: 0;
+    height: 100vh;
+    left: -10rem;
   }
 
   @include for-big-desktop-up {
@@ -36,16 +37,21 @@
 
   @include for-tablet-portrait-up {
     max-width: 60vw;
-    padding: 8rem 0rem 10rem 5rem;
+    padding: 8rem 3rem 18rem 0;
+  }
+
+  @include for-tablet-landscape-up {
+    max-width: 60vw;
+    padding: 8rem 6rem 1rem 0;
   }
 
   @include for-desktop-up {
     max-width: 60vw;
-    padding: 8rem 10rem 10rem 0;
+    padding: 2rem 10rem 2rem 0;
   }
 
   @include for-big-desktop-up {
-    padding: 10rem 20rem 15rem 8rem;
+    padding: 10rem 20rem 2rem 8rem;
   }
 }
 
