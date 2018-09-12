@@ -3,6 +3,7 @@ import * as firebase from "firebase/app";
 import "firebase/database";
 import ResultsHero from "../components/ResultsHero/ResultsHero";
 import ResultsLoading from "../components/ResultsLoading/ResultsLoading";
+import Footer from "../components/Footer/Footer";
 
 const Storage = typeof window !== "undefined" && window.localStorage;
 
@@ -80,7 +81,12 @@ class Results extends Component {
       return <div> eita </div>;
     }
     if (data && !isLoading) {
-      return <ResultsHero historyGist={data} />;
+      return (
+        <div>
+          <ResultsHero historyGist={data} />
+          <Footer />
+        </div>
+      );
     }
   }
 }
