@@ -1,0 +1,17 @@
+@import "../../../config/variables";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+
+  @include for-tablet-landscape-up {
+    padding: 2rem 10rem 0;
+    flex-direction: row;
+  }
+  @include for-desktop-up {
+    padding: 2rem 14rem 0;
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,27 @@
+@import "../../../config/variables";
+
+.profile {
+  flex-basis: 33%;
+  margin: 0 2rem 2rem;
+  text-align: center;
+
+  @include for-tablet-landscape-up {
+    margin: 0 1rem;
+  }
+}
+
+.text {
+  font-size: 2rem;
+
+  @include for-tablet-landscape-up {
+    font-size: 0.8rem;
+  }
+}
+
+.name {
+  font-size: 3rem;
+
+  @include for-tablet-landscape-up {
+    font-size: 1.5rem;
+  }
+}
