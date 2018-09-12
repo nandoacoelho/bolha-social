@@ -39,11 +39,11 @@
 
   @include for-desktop-up {
     max-width: 50vw;
-    padding: 10rem 0 10rem 18rem;
+    padding: 10rem 0 6rem 18rem;
   }
 
   @include for-big-desktop-up {
-    padding: 15rem 8rem 15rem 18rem;
+    padding: 15rem 8rem 4rem 18rem;
   }
 }
 
