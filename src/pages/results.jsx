@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import * as firebase from "firebase/app";
 import "firebase/database";
+import flatten from "lodash/flatten";
 import ResultsHero from "../components/ResultsHero/ResultsHero";
 import ResultsLoading from "../components/ResultsLoading/ResultsLoading";
 import Footer from "../components/Footer/Footer";
@@ -42,8 +43,68 @@ class Results extends Component {
     }
   }
 
+  registerEveryOnesData() {
+    console.log("Writing general data");
+    firebase
+      .database()
+      .ref("/history-data/")
+      .once("value")
+      .then(snapshot => {
+        const data = snapshot.val();
+
+        const flattenedHistories = flatten(
+          Object.keys(data).map(dataItem => {
+            const localData = data[dataItem]["history-gist"];
+
+            return Object.keys(localData)
+              .map(localDataItem => localData[localDataItem])
+              .pop();
+          })
+        );
+
+        let processedHistories = flattenedHistories.reduce(
+          (accumulatedResults, currentRegistry) => {
+            const accumulatedHistoryOccurances =
+              accumulatedResults.totalHistoryAmount +
+              currentRegistry.totalHistoryAmount;
+            return {
+              totalHistoryAmount: accumulatedHistoryOccurances,
+              totalPerCategory: currentRegistry.totalPerCategory.map(
+                (category, index) => {
+                  const accumulatedOccurances =
+                    category.categoryOccurances +
+                    accumulatedResults.totalPerCategory[index]
+                      .categoryOccurances;
+
+                  return {
+                    categoryOccurances: accumulatedOccurances,
+                    categoryPercentage:
+                      (accumulatedOccurances * 100) /
+                      accumulatedHistoryOccurances,
+                    categoryTitle: category.categoryTitle
+                  };
+                }
+              )
+            };
+          }
+        );
+
+        processedHistories = {
+          ...processedHistories,
+          totalNumberOfHistories: flattenedHistories.length
+        };
+
+        firebase
+          .database()
+          .ref("/general-gist/")
+          .set(processedHistories);
+      });
+  }
+
   initFirebase = () => {
     firebase.initializeApp(config);
+
+    this.registerEveryOnesData();
 
     firebase
       .database()
