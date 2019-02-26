@@ -3,7 +3,7 @@ import { Fade } from "react-reveal";
 import styles from "./PrimaryButton.module.scss";
 import Link from "gatsby-link";
 const PrimaryButton = ({
-  isLink,
+  isLink = false,
   isSubmit = false,
   linkTo,
   title,
