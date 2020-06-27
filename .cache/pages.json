@@ -10,8 +10,8 @@
         "componentChunkName": "component---src-templates-project-jsx",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "cube-round-make-cubes-round.json",
-        "path": "/cube-round-make-cubes-round"
+        "jsonName": "smart-triangle-make-triangles-smart.json",
+        "path": "/smart-triangle-make-triangles-smart"
     },
     {
         "componentChunkName": "component---src-templates-project-jsx",
@@ -24,15 +24,15 @@
         "componentChunkName": "component---src-templates-project-jsx",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "leko-arts-your-theme-creator.json",
-        "path": "/leko-arts-your-theme-creator"
+        "jsonName": "cube-round-make-cubes-round.json",
+        "path": "/cube-round-make-cubes-round"
     },
     {
         "componentChunkName": "component---src-templates-project-jsx",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "smart-triangle-make-triangles-smart.json",
-        "path": "/smart-triangle-make-triangles-smart"
+        "jsonName": "leko-arts-your-theme-creator.json",
+        "path": "/leko-arts-your-theme-creator"
     },
     {
         "componentChunkName": "component---src-pages-404-jsx",
