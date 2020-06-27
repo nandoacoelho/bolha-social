@@ -1,4 +1,4 @@
-@import "../../../config/variables";
+@import '../../../config/variables';
 
 .wrapper {
   display: flex;
@@ -16,10 +16,10 @@
   @include for-tablet-portrait-up {
     position: fixed;
     right: -15rem;
-    height: calc(100vh - 7.25rem);
   }
 
   @include for-desktop-up {
+    height: calc(100vh - 7.25rem);
     right: -5rem;
   }
 
@@ -48,5 +48,9 @@
 }
 
 .body {
-  font-size: 1rem;
+  font-size: 1.5rem;
+
+  @include for-desktop-up {
+    font-size: 1rem;
+  }
 }

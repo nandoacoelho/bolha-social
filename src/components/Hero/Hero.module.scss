@@ -1,0 +1,106 @@
+@import '../../../config/variables';
+
+.wrapper,
+.wrapperLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.wrapper {
+  @include for-desktop-up {
+    justify-content: flex-start;
+    height: 65vh;
+    flex-direction: row;
+  }
+}
+
+.wrapperLeft {
+  flex-direction: column-reverse;
+
+  @include for-desktop-up {
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    height: 65vh;
+  }
+}
+
+.heroImageLeft,
+.heroImage {
+  z-index: -1;
+  user-select: none;
+  position: absolute;
+  top: 0;
+}
+
+.heroImage {
+  @include for-desktop-up {
+    right: -20rem;
+  }
+
+  @include for-big-desktop-up {
+    right: -15rem;
+  }
+}
+
+.heroImageLeft {
+  @include for-desktop-up {
+    left: -10rem;
+  }
+
+  @include for-big-desktop-up {
+    left: -15rem;
+  }
+}
+
+.main,
+.mainLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  z-index: 1;
+  padding: 0 2rem;
+  font-size: 2rem;
+  margin-top: 35vh;
+
+  @include for-tablet-portrait-up {
+    margin-top: 60vh;
+  }
+  @include for-desktop-up {
+    margin-top: 0;
+  }
+}
+
+.main {
+  @include for-desktop-up {
+    max-width: 50vw;
+    padding: 10rem 0 6rem 14rem;
+  }
+
+  @include for-big-desktop-up {
+    padding: 15rem 8rem 4rem 18rem;
+  }
+}
+
+.mainLeft {
+  @include for-desktop-up {
+    max-width: 50vw;
+    padding: 10rem 12rem 0rem 6rem;
+  }
+
+  @include for-big-desktop-up {
+    padding: 15rem 18rem 4rem 8rem;
+  }
+}
+
+.body {
+  font-size: 1.5rem;
+
+  @include for-desktop-up {
+    font-size: 1rem;
+  }
+}
