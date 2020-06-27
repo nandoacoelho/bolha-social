@@ -1,8 +1,10 @@
-import React from "react";
-import Helmet from "react-helmet";
-import config from "../../config/SiteConfig";
-import HomeHero from "../components/HomeHero/HomeHero";
-import Footer from "../components/Footer/Footer";
+import Footer from '../components/Footer/Footer'
+import Helmet from 'react-helmet'
+import Hero from '../components/Hero/Hero'
+import HomeHero from '../components/HomeHero/HomeHero'
+import React from 'react'
+import config from '../../config/SiteConfig'
+
 const Index = props => {
   return (
     <div className="container index-container">
@@ -12,7 +14,7 @@ const Index = props => {
       <HomeHero />
       <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default Index;
+export default Index
