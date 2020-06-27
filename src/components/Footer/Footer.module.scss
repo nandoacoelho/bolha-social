@@ -1,8 +1,10 @@
 @import "../../../config/variables";
-
 .footer {
-  z-index: 10;
-  margin: 1rem 0 0;
-  padding: 1rem $distance;
-  text-align: center;
+    z-index: 10;
+    margin: 10rem 0 0;
+    padding: 1rem $distance;
+    text-align: center;
+    @include for-phone-only {
+        margin: 1rem 0 0;
+    }
 }

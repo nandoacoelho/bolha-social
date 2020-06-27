@@ -1,17 +1,17 @@
 var plugins = [{
-      plugin: require('/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-google-analytics/gatsby-browser'),
+      plugin: require('/Users/fernando.coelho/Code/bolha-social-website/node_modules/gatsby-plugin-google-analytics/gatsby-browser'),
       options: {"plugins":[],"trackingId":"UA-124252195-1"},
     },{
-      plugin: require('/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-nprogress/gatsby-browser'),
+      plugin: require('/Users/fernando.coelho/Code/bolha-social-website/node_modules/gatsby-plugin-nprogress/gatsby-browser'),
       options: {"plugins":[],"color":"#ffffff"},
     },{
-      plugin: require('/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-typography/gatsby-browser'),
+      plugin: require('/Users/fernando.coelho/Code/bolha-social-website/node_modules/gatsby-plugin-typography/gatsby-browser'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography.jsx"},
     },{
-      plugin: require('/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-catch-links/gatsby-browser'),
+      plugin: require('/Users/fernando.coelho/Code/bolha-social-website/node_modules/gatsby-plugin-catch-links/gatsby-browser'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/fernandodealmeidacoelho/Code/bolha-social-website/node_modules/gatsby-plugin-offline/gatsby-browser'),
+      plugin: require('/Users/fernando.coelho/Code/bolha-social-website/node_modules/gatsby-plugin-offline/gatsby-browser'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks

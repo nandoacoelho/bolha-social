@@ -10,15 +10,15 @@
         "componentChunkName": "component---src-templates-project-jsx",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "cube-round-make-cubes-round.json",
-        "path": "/cube-round-make-cubes-round"
+        "jsonName": "blob-sphere-make-spheres-blob.json",
+        "path": "/blob-sphere-make-spheres-blob"
     },
     {
         "componentChunkName": "component---src-templates-project-jsx",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "blob-sphere-make-spheres-blob.json",
-        "path": "/blob-sphere-make-spheres-blob"
+        "jsonName": "cube-round-make-cubes-round.json",
+        "path": "/cube-round-make-cubes-round"
     },
     {
         "componentChunkName": "component---src-templates-project-jsx",
