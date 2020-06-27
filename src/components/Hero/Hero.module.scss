@@ -42,7 +42,7 @@
   }
 
   @include for-big-desktop-up {
-    right: -15rem;
+    right: -2rem;
   }
 }
 
@@ -52,7 +52,7 @@
   }
 
   @include for-big-desktop-up {
-    left: -15rem;
+    left: -2rem;
   }
 }
 
@@ -82,7 +82,7 @@
   }
 
   @include for-big-desktop-up {
-    padding: 15rem 8rem 4rem 18rem;
+    padding: 15rem 4rem 4rem 22rem;
   }
 }
 
@@ -93,14 +93,24 @@
   }
 
   @include for-big-desktop-up {
-    padding: 15rem 18rem 4rem 8rem;
+    padding: 15rem 22rem 4rem 4rem;
   }
 }
 
 .body {
   font-size: 1.5rem;
+  font-weight: bold;
 
   @include for-desktop-up {
-    font-size: 1rem;
+    font-size: 1.2rem;
+  }
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  @include for-desktop-up {
+    font-size: 2rem;
   }
 }

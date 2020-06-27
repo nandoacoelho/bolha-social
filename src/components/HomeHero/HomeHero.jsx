@@ -9,7 +9,7 @@ const HomeHero = () => (
     <Fade down />
     <img className={styles.heroImage} src={heroImage} />
     <div className={styles.heroText}>
-      <h2>Qual é a sua bolha?</h2>
+      <h2 className={styles.title}>Qual é a sua bolha?</h2>
       <p className={styles.body}>
         As grandes empresas sabem tudo sobre você. O que você compra, o que você gosta de comer, se
         vai à academia, qual sua banda favorita, sua cor favorita... Existem muitos dados sobre você

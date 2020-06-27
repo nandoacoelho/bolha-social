@@ -14,7 +14,7 @@
   }
 
   @include for-big-desktop-up {
-    padding: 0 16rem;
+    padding: 0 20rem;
   }
 
   a {
@@ -32,7 +32,7 @@
   display: flex;
   flex: 1;
   font-weight: 700;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
 }
 
 .name > span {

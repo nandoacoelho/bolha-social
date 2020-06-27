@@ -11,7 +11,7 @@ const Hero = ({ image, title, body, isLeftImage, linkTitle, linkUrl }) => (
       <Fragment>
         <div className={styles.mainLeft}>
           <div className={styles.heroTextLeft}>
-            {title && <h2>{title}</h2>}
+            {title && <h2 className={styles.title}>{title}</h2>}
             {body.map((item, index) => (
               <p key={`body-${index}`} className={styles.body}>
                 {item}
@@ -27,7 +27,7 @@ const Hero = ({ image, title, body, isLeftImage, linkTitle, linkUrl }) => (
         <img className={styles.heroImage} src={image} />
         <div className={styles.main}>
           <div className={styles.heroText}>
-            {title && <h2>{title}</h2>}
+            {title && <h2 className={styles.title}>{title}</h2>}
             {body.map((item, index) => (
               <p key={`body-${index}`} className={styles.body}>
                 {item}

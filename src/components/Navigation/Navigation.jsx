@@ -33,28 +33,20 @@ export default class Navigation extends Component {
             <div className={styles.name}>
               <span>
                 <Link to="/">
-                  <img className={styles.logo} width="80px" src={logo} alt={config.siteTitle} />
+                  <img className={styles.logo} width="95px" src={logo} alt={config.siteTitle} />
                 </Link>
               </span>
             </div>
 
             <nav className={styles.navigation}>
               <span>
-                <Link to="/" activeClassName="active">
-                  sua bolha
-                </Link>
+                <Link to="/">sua bolha</Link>
                 <Link to="/o-que-e-a-bolha" activeClassName="active">
                   o que é
                 </Link>
                 <Link to="/time" activeClassName="active">
                   equipe
                 </Link>
-                {/*<Link to="/share" activeClassName="active">
-                  compartilhe
-                </Link>
-                <Link to="/contact" activeClassName="active">
-                  contato
-                </Link> */}
               </span>
             </nav>
           </div>
@@ -74,28 +66,6 @@ export default class Navigation extends Component {
               <Link to="/time" activeClassName="active" onClick={() => this.closeMenu()}>
                 equipe
               </Link>
-              {/*<Link
-                to="/"
-                activeClassName="active"
-                onClick={() => this.closeMenu()}
-              >
-                sua bolha
-              </Link>
-              <Link
-                to="/share"
-                activeClassName="active"
-                onClick={() => this.closeMenu()}
-              >
-                compartilhe
-              </Link>
-              <Link
-                to="/contact"
-                activeClassName="active"
-                onClick={() => this.closeMenu()}
-              >
-                contato
-              </Link>
-            */}
             </Menu>
           </div>
         </div>
