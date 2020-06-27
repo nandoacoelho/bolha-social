@@ -69,7 +69,7 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.8.2",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.13",
     "prettier": "^1.13.3"
   },
   "browserslist": [
