@@ -14,6 +14,7 @@ class ResultsHero extends Component {
       case 'CIÊNCIA':
       case 'TECNOLOGIA':
       case 'JOGOS':
+      case 'POLITICA':
         return '#5fa9ff'
 
       case 'CARROS':
@@ -26,8 +27,6 @@ class ResultsHero extends Component {
       case 'HUMOR':
         return '#9475d0'
 
-      case 'FITNESS':
-      case 'ECONOMIA':
       case 'EDUCACAO':
       case 'SERIES E FILMES':
       case 'POP/ARTE':
@@ -36,10 +35,12 @@ class ResultsHero extends Component {
 
       case 'ALIMENTAÇÃO E SAÚDE':
       case 'NATUREZA':
-      case 'POLITICA':
       case 'NOTÍCIAS':
       case 'CULINÁRIA':
       case 'DECORAÇÃO':
+      case 'FITNESS':
+      case 'ECONOMIA':
+      case 'ESPORTE':
       default:
         return '#00cfb9'
     }

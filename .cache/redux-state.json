@@ -1600,7 +1600,7 @@
       "resolve": "/Users/fernando.coelho/Code/bolha-social-website",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "aa7a8ba90a6bf021e0fe06f0cc5705ad",
+      "version": "f490f9d1eaa6ecd41470d43636eb6330",
       "pluginOptions": {
         "plugins": []
       },
@@ -1820,7 +1820,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f0dc4f2f071dfa1a1321677a7bb0fc90",
+        "contentDigest": "b66b3bedfe0d6f237b53aaf1c6491bbc",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1910,12 +1910,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2020-06-27T17:55:24.919Z",
+      "buildTime": "2020-06-27T18:26:03.361Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ca81beebccbf4075c85946a5b55d005f",
+        "contentDigest": "dd50ff1ae8475b19fd72fa3af123f91d",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2052,6 +2052,50 @@
       "ctime": "2020-06-27T17:55:19.153Z",
       "birthtime": "2020-06-27T17:55:19.150Z"
     },
+    "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27 absPath of file": {
+      "id": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c5007c985c3ba33fde1b87051a3a94c1",
+        "type": "Directory",
+        "description": "Directory \"content/projects/2017-10-27\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27",
+      "relativePath": "2017-10-27",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2020-06-27T17:55:19.153Z",
+      "accessTime": "2020-06-27T17:55:19.250Z",
+      "changeTime": "2020-06-27T17:55:19.153Z",
+      "birthTime": "2020-06-27T17:55:19.153Z",
+      "root": "/",
+      "dir": "/Users/fernando.coelho/Code/bolha-social-website/content/projects",
+      "base": "2017-10-27",
+      "ext": "",
+      "name": "2017-10-27",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26480226,
+      "blocks": 0,
+      "atimeMs": 1593280519250.2068,
+      "mtimeMs": 1593280519153.0405,
+      "ctimeMs": 1593280519153.0405,
+      "birthtimeMs": 1593280519152.832,
+      "atime": "2020-06-27T17:55:19.250Z",
+      "mtime": "2020-06-27T17:55:19.153Z",
+      "ctime": "2020-06-27T17:55:19.153Z",
+      "birthtime": "2020-06-27T17:55:19.153Z"
+    },
     "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-28 absPath of file": {
       "id": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-28 absPath of file",
       "children": [],
@@ -2096,46 +2140,49 @@
       "ctime": "2020-06-27T17:55:19.157Z",
       "birthtime": "2020-06-27T17:55:19.157Z"
     },
-    "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27 absPath of file": {
-      "id": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27 absPath of file",
-      "children": [],
+    "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file": {
+      "id": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file",
+      "children": [
+        "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file >>> MarkdownRemark"
+      ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c5007c985c3ba33fde1b87051a3a94c1",
-        "type": "Directory",
-        "description": "Directory \"content/projects/2017-10-27\"",
+        "contentDigest": "5ced2e3ea6e36145539483b62fb03920",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"content/projects/2017-10-27/index.md\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "projects",
-      "absolutePath": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27",
-      "relativePath": "2017-10-27",
-      "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
+      "absolutePath": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md",
+      "relativePath": "2017-10-27/index.md",
+      "extension": "md",
+      "size": 855,
+      "prettySize": "855 B",
       "modifiedTime": "2020-06-27T17:55:19.153Z",
-      "accessTime": "2020-06-27T17:55:19.250Z",
+      "accessTime": "2020-06-27T17:55:19.854Z",
       "changeTime": "2020-06-27T17:55:19.153Z",
       "birthTime": "2020-06-27T17:55:19.153Z",
       "root": "/",
-      "dir": "/Users/fernando.coelho/Code/bolha-social-website/content/projects",
-      "base": "2017-10-27",
-      "ext": "",
-      "name": "2017-10-27",
-      "relativeDirectory": "",
+      "dir": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2017-10-27",
       "dev": 16777220,
-      "mode": 16877,
-      "nlink": 4,
+      "mode": 33188,
+      "nlink": 1,
       "uid": 502,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 26480226,
-      "blocks": 0,
-      "atimeMs": 1593280519250.2068,
-      "mtimeMs": 1593280519153.0405,
-      "ctimeMs": 1593280519153.0405,
-      "birthtimeMs": 1593280519152.832,
-      "atime": "2020-06-27T17:55:19.250Z",
+      "ino": 26480227,
+      "blocks": 8,
+      "atimeMs": 1593280519854.4568,
+      "mtimeMs": 1593280519152.9526,
+      "ctimeMs": 1593280519152.9526,
+      "birthtimeMs": 1593280519152.9016,
+      "atime": "2020-06-27T17:55:19.854Z",
       "mtime": "2020-06-27T17:55:19.153Z",
       "ctime": "2020-06-27T17:55:19.153Z",
       "birthtime": "2020-06-27T17:55:19.153Z"
@@ -2281,53 +2328,6 @@
       "ctime": "2020-06-27T17:55:19.157Z",
       "birthtime": "2020-06-27T17:55:19.157Z"
     },
-    "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file": {
-      "id": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file",
-      "children": [
-        "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "5ced2e3ea6e36145539483b62fb03920",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "description": "File \"content/projects/2017-10-27/index.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "projects",
-      "absolutePath": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md",
-      "relativePath": "2017-10-27/index.md",
-      "extension": "md",
-      "size": 855,
-      "prettySize": "855 B",
-      "modifiedTime": "2020-06-27T17:55:19.153Z",
-      "accessTime": "2020-06-27T17:55:19.854Z",
-      "changeTime": "2020-06-27T17:55:19.153Z",
-      "birthTime": "2020-06-27T17:55:19.153Z",
-      "root": "/",
-      "dir": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "2017-10-27",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 502,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 26480227,
-      "blocks": 8,
-      "atimeMs": 1593280519854.4568,
-      "mtimeMs": 1593280519152.9526,
-      "ctimeMs": 1593280519152.9526,
-      "birthtimeMs": 1593280519152.9016,
-      "atime": "2020-06-27T17:55:19.854Z",
-      "mtime": "2020-06-27T17:55:19.153Z",
-      "ctime": "2020-06-27T17:55:19.153Z",
-      "birthtime": "2020-06-27T17:55:19.153Z"
-    },
     "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-25/blobSphere.jpg absPath of file": {
       "id": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-25/blobSphere.jpg absPath of file",
       "children": [
@@ -2348,7 +2348,7 @@
       "size": 209762,
       "prettySize": "210 kB",
       "modifiedTime": "2020-06-27T17:55:19.149Z",
-      "accessTime": "2020-06-27T17:55:19.883Z",
+      "accessTime": "2020-06-27T17:55:49.023Z",
       "changeTime": "2020-06-27T17:55:19.149Z",
       "birthTime": "2020-06-27T17:55:19.147Z",
       "root": "/",
@@ -2366,11 +2366,11 @@
       "blksize": 4096,
       "ino": 26480221,
       "blocks": 416,
-      "atimeMs": 1593280519883.3086,
+      "atimeMs": 1593280549022.8047,
       "mtimeMs": 1593280519149.3044,
       "ctimeMs": 1593280519149.3044,
       "birthtimeMs": 1593280519146.809,
-      "atime": "2020-06-27T17:55:19.883Z",
+      "atime": "2020-06-27T17:55:49.023Z",
       "mtime": "2020-06-27T17:55:19.149Z",
       "ctime": "2020-06-27T17:55:19.149Z",
       "birthtime": "2020-06-27T17:55:19.147Z"
@@ -2395,7 +2395,7 @@
       "size": 292267,
       "prettySize": "292 kB",
       "modifiedTime": "2020-06-27T17:55:19.153Z",
-      "accessTime": "2020-06-27T17:55:19.884Z",
+      "accessTime": "2020-06-27T17:55:49.023Z",
       "changeTime": "2020-06-27T17:55:19.153Z",
       "birthTime": "2020-06-27T17:55:19.150Z",
       "root": "/",
@@ -2413,11 +2413,11 @@
       "blksize": 4096,
       "ino": 26480224,
       "blocks": 576,
-      "atimeMs": 1593280519884.098,
+      "atimeMs": 1593280549023.2288,
       "mtimeMs": 1593280519152.5635,
       "ctimeMs": 1593280519152.5635,
       "birthtimeMs": 1593280519149.7915,
-      "atime": "2020-06-27T17:55:19.884Z",
+      "atime": "2020-06-27T17:55:49.023Z",
       "mtime": "2020-06-27T17:55:19.153Z",
       "ctime": "2020-06-27T17:55:19.153Z",
       "birthtime": "2020-06-27T17:55:19.150Z"
@@ -2430,6 +2430,35 @@
         "contentDigest": "6fddcc062738759fdf558ef34a022b15",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file",
+      "internal": {
+        "content": "---\nclient: \"SmartTriangle\"\ntitle: \"SmartTriangle - Make Triangles smart!\"\ncover: \"./smartTriangle.jpg\"\ndate: \"2017-10-27\"\nservice: \"Art Direction\"\n---\n# Description\n\nFar far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands.",
+        "type": "MarkdownRemark",
+        "contentDigest": "4c7e0304e1f542390e07b62685306b47",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "SmartTriangle - Make Triangles smart!",
+        "client": "SmartTriangle",
+        "cover": "./smartTriangle.jpg",
+        "date": "2017-10-27",
+        "service": "Art Direction",
+        "_PARENT": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file",
+        "parent": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "# Description\n\nFar far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands.",
+      "fileAbsolutePath": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md",
+      "fields": {
+        "slug": "/smart-triangle-make-triangles-smart"
       }
     },
     "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-25/index.md absPath of file >>> MarkdownRemark": {
@@ -2490,6 +2519,16 @@
         "slug": "/cube-round-make-cubes-round"
       }
     },
+    "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg absPath of file",
+      "internal": {
+        "contentDigest": "224143b7440585785b0d46827cc65219",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-28/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-28/index.md absPath of file >>> MarkdownRemark",
       "children": [],
@@ -2519,45 +2558,6 @@
         "slug": "/leko-arts-your-theme-creator"
       }
     },
-    "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-26/cubeRound.jpg absPath of file",
-      "internal": {
-        "contentDigest": "224143b7440585785b0d46827cc65219",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file",
-      "internal": {
-        "content": "---\nclient: \"SmartTriangle\"\ntitle: \"SmartTriangle - Make Triangles smart!\"\ncover: \"./smartTriangle.jpg\"\ndate: \"2017-10-27\"\nservice: \"Art Direction\"\n---\n# Description\n\nFar far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands.",
-        "type": "MarkdownRemark",
-        "contentDigest": "4c7e0304e1f542390e07b62685306b47",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "SmartTriangle - Make Triangles smart!",
-        "client": "SmartTriangle",
-        "cover": "./smartTriangle.jpg",
-        "date": "2017-10-27",
-        "service": "Art Direction",
-        "_PARENT": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file",
-        "parent": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "# Description\n\nFar far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands.",
-      "fileAbsolutePath": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md",
-      "fields": {
-        "slug": "/smart-triangle-make-triangles-smart"
-      }
-    },
     "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file": {
       "id": "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file",
       "children": [
@@ -2578,7 +2578,7 @@
       "size": 404825,
       "prettySize": "405 kB",
       "modifiedTime": "2020-06-27T17:55:19.157Z",
-      "accessTime": "2020-06-27T17:55:19.885Z",
+      "accessTime": "2020-06-27T17:55:49.024Z",
       "changeTime": "2020-06-27T17:55:19.157Z",
       "birthTime": "2020-06-27T17:55:19.153Z",
       "root": "/",
@@ -2596,11 +2596,11 @@
       "blksize": 4096,
       "ino": 26480228,
       "blocks": 792,
-      "atimeMs": 1593280519885.2112,
+      "atimeMs": 1593280549023.8293,
       "mtimeMs": 1593280519156.8896,
       "ctimeMs": 1593280519156.8896,
       "birthtimeMs": 1593280519153.0342,
-      "atime": "2020-06-27T17:55:19.885Z",
+      "atime": "2020-06-27T17:55:49.024Z",
       "mtime": "2020-06-27T17:55:19.157Z",
       "ctime": "2020-06-27T17:55:19.157Z",
       "birthtime": "2020-06-27T17:55:19.153Z"
@@ -2625,7 +2625,7 @@
       "size": 472968,
       "prettySize": "473 kB",
       "modifiedTime": "2020-06-27T17:55:19.162Z",
-      "accessTime": "2020-06-27T17:55:19.886Z",
+      "accessTime": "2020-06-27T17:55:49.025Z",
       "changeTime": "2020-06-27T17:55:19.162Z",
       "birthTime": "2020-06-27T17:55:19.157Z",
       "root": "/",
@@ -2643,11 +2643,11 @@
       "blksize": 4096,
       "ino": 26480231,
       "blocks": 928,
-      "atimeMs": 1593280519886.3096,
+      "atimeMs": 1593280549024.5713,
       "mtimeMs": 1593280519162.2466,
       "ctimeMs": 1593280519162.2466,
       "birthtimeMs": 1593280519157.2747,
-      "atime": "2020-06-27T17:55:19.886Z",
+      "atime": "2020-06-27T17:55:49.025Z",
       "mtime": "2020-06-27T17:55:19.162Z",
       "ctime": "2020-06-27T17:55:19.162Z",
       "birthtime": "2020-06-27T17:55:19.157Z"
@@ -2688,8 +2688,31 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fd28cca346f5726299512951ea9a819f",
+        "contentDigest": "f1cc5114a45ef8951d0c4eb126a50b60",
         "description": "Plugin gatsby-plugin-offline",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /smart-triangle-make-triangles-smart": {
+      "layout": "index",
+      "jsonName": "smart-triangle-make-triangles-smart.json",
+      "internalComponentName": "ComponentSmartTriangleMakeTrianglesSmart",
+      "path": "/smart-triangle-make-triangles-smart",
+      "component": "/Users/fernando.coelho/Code/bolha-social-website/src/templates/project.jsx",
+      "componentChunkName": "component---src-templates-project-jsx",
+      "context": {
+        "slug": "/smart-triangle-make-triangles-smart"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/fernando.coelho/Code/bolha-social-website/src/templates/project.jsx",
+      "id": "SitePage /smart-triangle-make-triangles-smart",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "31a7bbb421e3f822d232716543c3a448",
+        "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
     },
@@ -2711,7 +2734,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b11095dd02cfb7b0b377026cb07f2747",
+        "contentDigest": "19e0f44be3ec2e0bf2bebb7f8d741f6d",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2734,7 +2757,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6ab7c564f844467fd99b452acdd58577",
+        "contentDigest": "94782fad068f6a72c4259b2359a8f8ad",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2757,30 +2780,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "025e23161c96b8617a61693317d17aa9",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /smart-triangle-make-triangles-smart": {
-      "layout": "index",
-      "jsonName": "smart-triangle-make-triangles-smart.json",
-      "internalComponentName": "ComponentSmartTriangleMakeTrianglesSmart",
-      "path": "/smart-triangle-make-triangles-smart",
-      "component": "/Users/fernando.coelho/Code/bolha-social-website/src/templates/project.jsx",
-      "componentChunkName": "component---src-templates-project-jsx",
-      "context": {
-        "slug": "/smart-triangle-make-triangles-smart"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/fernando.coelho/Code/bolha-social-website/src/templates/project.jsx",
-      "id": "SitePage /smart-triangle-make-triangles-smart",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "6bdef2243dd0310390dca3086b018299",
+        "contentDigest": "f177e51704ac079a33015deb88279a9f",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2801,7 +2801,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8adcc69b154f6eee07edaec71f0f7d9c",
+        "contentDigest": "0a90d0cb9cd0157290a11644203e1867",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2822,7 +2822,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dd93c37a39b7d30efd0811baadb7e443",
+        "contentDigest": "50be1c2ac454597de64dbe7b86f6ba49",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2843,7 +2843,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dbde2cdd6675cdc149c83220d7b9b42d",
+        "contentDigest": "9cf05554076f73906b9ef21a486be29d",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2864,7 +2864,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "70fac4ff0ff2fd5e9df908e6e6e365f1",
+        "contentDigest": "e882e86bda58e45d7ecbbf9f13c44c7d",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2885,7 +2885,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8c4e8a710cfeafabd36d69fbce854d98",
+        "contentDigest": "f2edaa1aec386af8bfa996b26cb7a0ab",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2906,7 +2906,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "de61f441c3691733cef71c789a5f2c6b",
+        "contentDigest": "d04b6e96b1f548525b4a6fc083823011",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2927,7 +2927,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "60e0bf9fbd48ef12179affca0b057f1b",
+        "contentDigest": "24c05201747dcfd7cc1bb5201f97ac61",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2948,7 +2948,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "16cd9fd60fbff5a41b955a37f070c179",
+        "contentDigest": "2943ccbcb800296f6e6109a0de90baff",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2969,7 +2969,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "69a738229dd67e8744d2a40c1e9228ad",
+        "contentDigest": "6fb50f226457711a9397994fcb488e05",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -2977,7 +2977,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "f70312c238022939477c842eed24b082"
+    "PLUGINS_HASH": "c19bdeb3658ea403c28a429c6e0ab923"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -2999,15 +2999,6 @@
       "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-25/blobSphere.jpg absPath of file >> ImageSharp": [
         "/blob-sphere-make-spheres-blob"
       ],
-      "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-28/index.md absPath of file >>> MarkdownRemark": [
-        "/leko-arts-your-theme-creator"
-      ],
-      "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-28/lekoarts.jpg absPath of file": [
-        "/leko-arts-your-theme-creator"
-      ],
-      "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-28/lekoarts.jpg absPath of file >> ImageSharp": [
-        "/leko-arts-your-theme-creator"
-      ],
       "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/index.md absPath of file >>> MarkdownRemark": [
         "/smart-triangle-make-triangles-smart"
       ],
@@ -3016,8 +3007,21 @@
       ],
       "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-27/smartTriangle.jpg absPath of file >> ImageSharp": [
         "/smart-triangle-make-triangles-smart"
+      ],
+      "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-28/index.md absPath of file >>> MarkdownRemark": [
+        "/leko-arts-your-theme-creator"
+      ],
+      "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-28/lekoarts.jpg absPath of file": [
+        "/leko-arts-your-theme-creator"
+      ],
+      "/Users/fernando.coelho/Code/bolha-social-website/content/projects/2017-10-28/lekoarts.jpg absPath of file >> ImageSharp": [
+        "/leko-arts-your-theme-creator"
       ]
     },
-    "connections": {}
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
   }
 }

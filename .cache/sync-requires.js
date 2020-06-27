@@ -22,10 +22,10 @@ exports.components = {
 exports.json = {
   "layout-index.json": require("/Users/fernando.coelho/Code/bolha-social-website/.cache/json/layout-index.json"),
   "offline-plugin-app-shell-fallback.json": require("/Users/fernando.coelho/Code/bolha-social-website/.cache/json/offline-plugin-app-shell-fallback.json"),
+  "smart-triangle-make-triangles-smart.json": require("/Users/fernando.coelho/Code/bolha-social-website/.cache/json/smart-triangle-make-triangles-smart.json"),
   "blob-sphere-make-spheres-blob.json": require("/Users/fernando.coelho/Code/bolha-social-website/.cache/json/blob-sphere-make-spheres-blob.json"),
   "cube-round-make-cubes-round.json": require("/Users/fernando.coelho/Code/bolha-social-website/.cache/json/cube-round-make-cubes-round.json"),
   "leko-arts-your-theme-creator.json": require("/Users/fernando.coelho/Code/bolha-social-website/.cache/json/leko-arts-your-theme-creator.json"),
-  "smart-triangle-make-triangles-smart.json": require("/Users/fernando.coelho/Code/bolha-social-website/.cache/json/smart-triangle-make-triangles-smart.json"),
   "404.json": require("/Users/fernando.coelho/Code/bolha-social-website/.cache/json/404.json"),
   "bubble.json": require("/Users/fernando.coelho/Code/bolha-social-website/.cache/json/bubble.json"),
   "contact.json": require("/Users/fernando.coelho/Code/bolha-social-website/.cache/json/contact.json"),
