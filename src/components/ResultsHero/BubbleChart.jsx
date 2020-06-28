@@ -115,10 +115,6 @@ class BubbleChart extends Component {
     const texts = data.map((item, index) => {
       const compensatedPercentage = this.getBalancedPercentage(item.categoryPercentage)
       const scale = this.radiusScale(compensatedPercentage)
-      console.log('item.categoryPercentage', item.categoryPercentage)
-      console.log('compensatedPercentage', compensatedPercentage)
-      console.log('scale', scale)
-      console.log(' ')
       const fontSize = scale > 80 ? 24 : 10
       const fontSizePercentage = scale > 80 ? 32 : 20
       const percentage = `${item.categoryPercentage.toFixed(2)}%`

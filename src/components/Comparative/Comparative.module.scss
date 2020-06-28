@@ -1,0 +1,156 @@
+@import '../../../config/variables';
+
+.eachBubbleDataWrapper,
+.wrapper {
+  padding: 0 2rem;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+
+  @include for-desktop-up {
+    padding: 0 16rem;
+    flex-direction: row;
+  }
+}
+
+.eachBubbleDataWrapper {
+  margin-top: 40px;
+}
+
+.userHistory,
+.generalHistory,
+.categoriesDetails {
+  border-radius: 20px;
+  border: 2px solid $brand-green;
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+
+  @include for-desktop-up {
+    height: 70vh;
+  }
+
+  @include for-big-desktop-up {
+    height: 75vh;
+  }
+}
+
+.generalHistoryList {
+  height: 100%;
+
+  @include for-desktop-up {
+    height: 90%;
+  }
+}
+
+.userHistoryList {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: auto;
+  margin-bottom: 80px;
+
+  @include for-desktop-up {
+    margin-bottom: 0;
+    height: 75%;
+  }
+}
+
+.generalHistoryList {
+  display: flex;
+  flex-direction: column;
+
+  @include for-desktop-up {
+    flex-wrap: wrap;
+  }
+}
+
+.userHistory {
+  position: relative;
+
+  @include for-desktop-up {
+    margin-right: 10px;
+    flex-basis: 40%;
+  }
+}
+
+.generalHistory {
+  margin-top: 40px;
+
+  @include for-desktop-up {
+    margin-top: 0;
+    margin-left: 10px;
+    flex-basis: 60%;
+  }
+}
+
+.eachBubbleData {
+  display: flex;
+  flex-direction: row;
+}
+
+.categoriesListWrapper,
+.categoriesDetails {
+  flex-basis: 50%;
+}
+
+.categoriesDetails {
+  flex-basis: 50%;
+  height: 30vh;
+}
+
+.categoriesListWrapper {
+  height: 60vh;
+}
+
+.categoriesList {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  height: 60vh;
+  flex-wrap: wrap;
+
+  @include for-desktop-up {
+    height: 40vh;
+  }
+
+  @include for-big-desktop-up {
+    height: 30vh;
+  }
+}
+
+.title {
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.categoryTitleSmall {
+  margin: 0 10px 10px 0;
+  padding: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-weight: bold;
+  width: 170px;
+
+  @include for-desktop-up {
+    font-size: 0.8rem;
+    width: 110px;
+  }
+  @include for-big-desktop-up {
+    width: 150px;
+  }
+}
+
+.button {
+  position: absolute;
+  bottom: 30px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include for-big-desktop-up {
+    bottom: 50px;
+  }
+}

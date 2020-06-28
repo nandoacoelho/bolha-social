@@ -1,43 +1,38 @@
-import React, { Component } from "react";
-import Link from "gatsby-link";
-import config from "../../../config/SiteConfig";
-import styles from "./NavigationResults.module.scss";
-import logo from "../../assets/images/logo.png";
+import React, { Component } from 'react'
 
-export default class NavigationResults extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      menuOpen: false
-    };
-    this.handleStateChange = this.handleStateChange.bind(this);
-  }
+import Link from 'gatsby-link'
+import PrimaryButton from '../PrimaryButton/PrimaryButton'
+import config from '../../../config/SiteConfig'
+import logo from '../../assets/images/logo.png'
+import styles from './NavigationResults.module.scss'
+import { useResultsContext } from '../../utils/use-result-context'
 
-  handleStateChange(state) {
-    this.setState({ menuOpen: state.isOpen });
-  }
+export default function NavigationResults() {
+  const { isComparative, setIsComparative } = useResultsContext()
 
-  closeMenu() {
-    this.setState({ menuOpen: false });
+  function toggleComparative() {
+    setIsComparative(!isComparative)
   }
-  render() {
-    return (
-      <header className={styles.header}>
-        <div className={styles.wrapper}>
-          <div className={styles.name}>
-            <span>
-              <Link to="/">
-                <img
-                  className={styles.logo}
-                  width="80px"
-                  src={logo}
-                  alt={config.siteTitle}
-                />
-              </Link>
-            </span>
-          </div>
+  return (
+    <header className={styles.header}>
+      <div className={styles.wrapper}>
+        <div className={styles.name}>
+          <span>
+            <Link to="/">
+              <img className={styles.logo} width="80px" src={logo} alt={config.siteTitle} />
+            </Link>
+          </span>
         </div>
-      </header>
-    );
-  }
+        <nav className={styles.navigation}>
+          <span>
+            <PrimaryButton
+              onClick={toggleComparative}
+              isActive={isComparative}
+              title="comparativo"
+            />
+          </span>
+        </nav>
+      </div>
+    </header>
+  )
 }

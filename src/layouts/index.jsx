@@ -5,6 +5,7 @@ import React, { Component } from 'react'
 import Helmet from 'react-helmet'
 import Navigation from '../components/Navigation/Navigation'
 import NavigationResults from '../components/NavigationResults/NavigationResults'
+import { ResultsContextProvider } from '../utils/use-result-context'
 import SEO from '../components/SEO/SEO'
 import appleTouchIcon from './apple-touch-icon.png'
 import favicon from './favicon.png'
@@ -37,12 +38,10 @@ class MainLayout extends Component {
           <link rel="apple-touch-icon" href={appleTouchIcon} />
         </Helmet>
         <SEO />
-        {typeof window !== 'undefined' && window.location.pathname === '/results/' ? (
-          <NavigationResults />
-        ) : (
-          <Navigation />
-        )}
-        {children()}
+        <ResultsContextProvider>
+          {isResults ? <NavigationResults /> : <Navigation />}
+          {children()}
+        </ResultsContextProvider>
       </React.Fragment>
     )
   }
