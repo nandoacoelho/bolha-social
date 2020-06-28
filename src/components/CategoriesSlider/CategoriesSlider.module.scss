@@ -1,0 +1,22 @@
+@import '../../../config/variables';
+
+.nextArrow,
+.prevArrow {
+  background: transparent;
+  color: black;
+  border: none;
+  font-family: $font-family;
+  position: absolute;
+  top: 10px;
+  font-size: 1.5rem;
+  width: 50px;
+  height: 50px;
+}
+
+.nextArrow {
+  right: 20px;
+}
+
+.prevArrow {
+  right: 60px;
+}

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 import Comparative from '../components/Comparative/Comparative'
 import Footer from '../components/Footer/Footer'
+import Helmet from 'react-helmet'
 import ResultsHero from '../components/ResultsHero/ResultsHero'
 import ResultsLoading from '../components/ResultsLoading/ResultsLoading'
 import { getUserGeneralData } from '../utils/use-data'
@@ -35,6 +36,19 @@ function Results() {
   if (userData && !loading) {
     return (
       <div>
+        <Helmet>
+          <link
+            rel="stylesheet"
+            type="text/css"
+            charset="UTF-8"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+          />
+          <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+          />
+        </Helmet>
         {isComparative ? (
           <Comparative generalData={generalData} historyData={userData} />
         ) : (
