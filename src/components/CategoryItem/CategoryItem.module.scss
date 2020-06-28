@@ -1,8 +1,20 @@
 @import '../../../config/variables';
 
-.categoryTitleSmall {
+.categoryItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   margin: 0 10px 10px 0;
+
+  @include for-big-desktop-up {
+    margin: 0 10px 14px 0;
+  }
+}
+
+.categoryTitleSmall {
   padding: 0;
+  margin: 0;
   font-size: 1.1rem;
   font-weight: bold;
   width: 240px;
@@ -17,4 +29,8 @@
     font-size: 1.1rem;
     width: 250px;
   }
+}
+
+.categoryItem img {
+  margin: 0 10px 0 0;
 }
