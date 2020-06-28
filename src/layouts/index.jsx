@@ -1,6 +1,6 @@
 import '../utils/emma.scss'
 
-import React, { Component } from 'react'
+import React, { Fragment } from 'react'
 
 import Helmet from 'react-helmet'
 import Navigation from '../components/Navigation/Navigation'
@@ -9,42 +9,36 @@ import { ResultsContextProvider } from '../utils/use-result-context'
 import SEO from '../components/SEO/SEO'
 import appleTouchIcon from './apple-touch-icon.png'
 import favicon from './favicon.png'
+import { useState } from 'react'
 
-class MainLayout extends Component {
-  constructor() {
-    super()
-    this.state = {
-      isResults: typeof window !== 'undefined' && window.location.pathname === '/results/'
-    }
-  }
+function MainLayout({ children }) {
+  const [isResults, setIsResults] = useState(null)
 
-  componentDidMount() {
+  if (typeof window !== 'undefined') {
     window.onhashchange = () => {
-      this.setState({
-        isResults: typeof window !== 'undefined' && window.location.pathname === '/results/'
-      })
+      setIsResults(typeof window !== 'undefined' && window.location.pathname === '/results/')
     }
   }
 
-  render() {
-    const { children } = this.props
-    const { isResults } = this.state
-
-    return (
-      <React.Fragment>
-        <Helmet>
-          <link rel="shortcut icon" href={favicon} />
-          <link rel="apple-touch-icon" href={appleTouchIcon} />
-          <link rel="apple-touch-icon" href={appleTouchIcon} />
-        </Helmet>
-        <SEO />
-        <ResultsContextProvider>
-          {isResults ? <NavigationResults /> : <Navigation />}
-          {children()}
-        </ResultsContextProvider>
-      </React.Fragment>
-    )
+  if (isResults === null) {
+    setIsResults(typeof window !== 'undefined' && window.location.pathname === '/results/')
+    return null
   }
+
+  return (
+    <Fragment>
+      <Helmet>
+        <link rel="shortcut icon" href={favicon} />
+        <link rel="apple-touch-icon" href={appleTouchIcon} />
+        <link rel="apple-touch-icon" href={appleTouchIcon} />
+      </Helmet>
+      <SEO />
+      <ResultsContextProvider>
+        {isResults ? <NavigationResults /> : <Navigation />}
+        {children()}
+      </ResultsContextProvider>
+    </Fragment>
+  )
 }
 
 export default MainLayout

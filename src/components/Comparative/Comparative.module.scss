@@ -9,6 +9,11 @@
   width: 100vw;
 
   @include for-desktop-up {
+    padding: 0 10rem;
+    flex-direction: row;
+  }
+
+  @include for-big-desktop-up {
     padding: 0 16rem;
     flex-direction: row;
   }
@@ -109,6 +114,14 @@
 
   @include for-tablet-landscape-down {
     width: 100%;
+  }
+
+  @include for-desktop-up {
+    height: 40vh;
+  }
+
+  @include for-big-desktop-up {
+    height: 38vh;
   }
 }
 
