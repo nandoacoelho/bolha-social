@@ -18,11 +18,19 @@ function MainLayout({ children }) {
     window.onhashchange = () => {
       setIsResults(typeof window !== 'undefined' && window.location.pathname === '/results/')
     }
+
+    window.onpopstate = function(event) {
+      setIsResults(typeof window !== 'undefined' && window.location.pathname === '/results/')
+    }
   }
 
   if (isResults === null) {
     setIsResults(typeof window !== 'undefined' && window.location.pathname === '/results/')
     return null
+  }
+
+  function showDefaultNavigation() {
+    setIsResults(false)
   }
 
   return (
@@ -34,7 +42,11 @@ function MainLayout({ children }) {
       </Helmet>
       <SEO />
       <ResultsContextProvider>
-        {isResults ? <NavigationResults /> : <Navigation />}
+        {isResults ? (
+          <NavigationResults showDefaultNavigation={showDefaultNavigation} />
+        ) : (
+          <Navigation />
+        )}
         {children()}
       </ResultsContextProvider>
     </Fragment>

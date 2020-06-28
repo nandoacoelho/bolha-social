@@ -7,7 +7,7 @@ import logo from '../../assets/images/logo.png'
 import styles from './NavigationResults.module.scss'
 import { useResultsContext } from '../../utils/use-result-context'
 
-export default function NavigationResults() {
+export default function NavigationResults({ showDefaultNavigation }) {
   const { isComparative, setIsComparative } = useResultsContext()
 
   function toggleComparative() {
@@ -17,7 +17,7 @@ export default function NavigationResults() {
     <header className={styles.header}>
       <div className={styles.wrapper}>
         <div className={styles.name}>
-          <span>
+          <span onClick={showDefaultNavigation}>
             <Link to="/">
               <img className={styles.logo} width="80px" src={logo} alt={config.siteTitle} />
             </Link>
