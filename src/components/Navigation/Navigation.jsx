@@ -40,10 +40,10 @@ export default class Navigation extends Component {
 
             <nav className={styles.navigation}>
               <span>
-                <Link to="/">sua bolha</Link>
                 <Link to="/o-que-e-a-bolha" activeClassName="active">
                   o que é
                 </Link>
+                <Link to="/">sua bolha</Link>
                 <Link to="/time" activeClassName="active">
                   equipe
                 </Link>
