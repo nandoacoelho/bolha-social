@@ -44,14 +44,14 @@ export default class Navigation extends Component {
                   o que é
                 </Link>
                 <Link to="/">sua bolha</Link>
-                <Link to="/contato" activeClassName="active">
-                  contato
-                </Link>
                 <Link to="/compartilhe" activeClassName="active">
                   compartilhe
                 </Link>
                 <Link to="/time" activeClassName="active">
                   equipe
+                </Link>
+                <Link to="/contato" activeClassName="active">
+                  contato
                 </Link>
               </span>
             </nav>
@@ -69,13 +69,13 @@ export default class Navigation extends Component {
               <Link to="/o-que-e-a-bolha" activeClassName="active" onClick={() => this.closeMenu()}>
                 o que é
               </Link>
-              <Link to="/contato" activeClassName="active" onClick={() => this.closeMenu()}>
-                equipe
-              </Link>
               <Link to="/compartilhe" activeClassName="active" onClick={() => this.closeMenu()}>
                 equipe
               </Link>
               <Link to="/time" activeClassName="active" onClick={() => this.closeMenu()}>
+                equipe
+              </Link>
+              <Link to="/contato" activeClassName="active" onClick={() => this.closeMenu()}>
                 equipe
               </Link>
             </Menu>
