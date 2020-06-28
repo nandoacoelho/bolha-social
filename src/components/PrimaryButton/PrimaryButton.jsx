@@ -2,7 +2,7 @@ import { Fade } from 'react-reveal'
 import Link from 'gatsby-link'
 import React from 'react'
 import styles from './PrimaryButton.module.scss'
-const PrimaryButton = ({ isLink, linkTo, title, isActive, icon, onClick }) => {
+const PrimaryButton = ({ isLink, linkTo, title, isSubmit, isActive, icon, onClick }) => {
   if (isLink) {
     return (
       <a
@@ -29,6 +29,14 @@ const PrimaryButton = ({ isLink, linkTo, title, isActive, icon, onClick }) => {
         className={`${styles.primaryButton} ${isActive ? styles.active : ''}`}
         type="button"
       >
+        {title}
+      </button>
+    )
+  }
+
+  if (isSubmit) {
+    return (
+      <button type="submit" className={`${styles.primaryButton} ${isActive ? styles.active : ''}`}>
         {title}
       </button>
     )

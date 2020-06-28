@@ -15,8 +15,6 @@ function Results() {
   const [loading, setLoading] = useState(true)
   const { isComparative } = useResultsContext()
 
-  const isMobile = window.innerWidth < 770
-
   function updateData(data) {
     setLoading(false)
     setUserData(data)
@@ -51,7 +49,7 @@ function Results() {
             href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
           />
         </Helmet>
-        {isComparative || isMobile ? (
+        {isComparative ? (
           <Comparative generalData={generalData} historyData={userData} />
         ) : (
           <ResultsHero historyGist={userData} />

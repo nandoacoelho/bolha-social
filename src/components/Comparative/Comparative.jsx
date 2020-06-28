@@ -29,7 +29,7 @@ const Comparative = ({ historyData, generalData }) => {
           </div>
         </div>
         <div className={styles.generalHistory}>
-          <p className={styles.title}>Mundo</p>
+          <p className={styles.title}>Universo Coletado</p>
           <div className={styles.generalHistoryList}>
             {generalData &&
               generalData

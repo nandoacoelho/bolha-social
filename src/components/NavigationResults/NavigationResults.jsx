@@ -9,7 +9,6 @@ import { useResultsContext } from '../../utils/use-result-context'
 
 export default function NavigationResults({ showDefaultNavigation }) {
   const { isComparative, setIsComparative } = useResultsContext()
-  const isMobile = window.innerWidth < 770
 
   function toggleComparative() {
     setIsComparative(!isComparative)
@@ -24,17 +23,15 @@ export default function NavigationResults({ showDefaultNavigation }) {
             </Link>
           </span>
         </div>
-        {!isMobile && (
-          <nav className={styles.navigation}>
-            <span>
-              <PrimaryButton
-                onClick={toggleComparative}
-                isActive={isComparative}
-                title="comparativo"
-              />
-            </span>
-          </nav>
-        )}
+        <nav className={styles.navigation}>
+          <span>
+            <PrimaryButton
+              onClick={toggleComparative}
+              isActive={isComparative}
+              title="comparativo"
+            />
+          </span>
+        </nav>
       </div>
     </header>
   )

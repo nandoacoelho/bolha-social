@@ -4,7 +4,7 @@ import { Fade } from 'react-reveal'
 import PrimaryButton from '../PrimaryButton/PrimaryButton'
 import styles from './Hero.module.scss'
 
-const Hero = ({ image, title, body, isLeftImage, linkTitle, linkUrl }) => (
+const Hero = ({ image, title, body, isLeftImage, linkTitle, linkUrl, children }) => (
   <div className={`${isLeftImage ? styles.wrapperLeft : styles.wrapper}`}>
     <Fade down />
     {isLeftImage ? (
@@ -12,11 +12,13 @@ const Hero = ({ image, title, body, isLeftImage, linkTitle, linkUrl }) => (
         <div className={styles.mainLeft}>
           <div className={styles.heroTextLeft}>
             {title && <h2 className={styles.title}>{title}</h2>}
-            {body.map((item, index) => (
-              <p key={`body-${index}`} className={styles.body}>
-                {item}
-              </p>
-            ))}
+            {body &&
+              body.map((item, index) => (
+                <p key={`body-${index}`} className={styles.body}>
+                  {item}
+                </p>
+              ))}
+            {children}
           </div>
           {linkTitle && linkUrl && <PrimaryButton isLink title={linkTitle} linkTo={linkUrl} />}
         </div>
@@ -28,11 +30,13 @@ const Hero = ({ image, title, body, isLeftImage, linkTitle, linkUrl }) => (
         <div className={styles.main}>
           <div className={styles.heroText}>
             {title && <h2 className={styles.title}>{title}</h2>}
-            {body.map((item, index) => (
-              <p key={`body-${index}`} className={styles.body}>
-                {item}
-              </p>
-            ))}
+            {body &&
+              body.map((item, index) => (
+                <p key={`body-${index}`} className={styles.body}>
+                  {item}
+                </p>
+              ))}
+            {children}
           </div>
           {linkTitle && linkUrl && <PrimaryButton isLink title={linkTitle} linkTo={linkUrl} />}
         </div>
