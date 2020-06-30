@@ -70,13 +70,13 @@ export default class Navigation extends Component {
                 o que é
               </Link>
               <Link to="/compartilhe" activeClassName="active" onClick={() => this.closeMenu()}>
-                equipe
+                compartilhe
               </Link>
               <Link to="/time" activeClassName="active" onClick={() => this.closeMenu()}>
                 equipe
               </Link>
               <Link to="/contato" activeClassName="active" onClick={() => this.closeMenu()}>
-                equipe
+                contato
               </Link>
             </Menu>
           </div>
