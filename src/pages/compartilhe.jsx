@@ -14,7 +14,14 @@ import twitter from '../assets/images/icon-twitter.png'
 const Share = () => (
   <div className="container share-container">
     <Helmet title={`Compartilhe! | ${config.siteTitle}`} />
-    <Hero isLeftImage image={heroImage} title="Compartilhe!">
+    <Hero
+      isLeftImage
+      image={heroImage}
+      title="Compartilhe!"
+      body={[
+        'Este é um projeto criado para ajudar os usuários a entender seu comportamento na internet, além de auxiliar profissionais da área com dados relevantes. Gostou da proposta do Bolha Social? Ajude essa inciativa a se espalhar por aí e compartilhe nas redes sociais! Quanto mais gente participando, melhor a nossa base de dados! ;)'
+      ]}
+    >
       <div className={styles.buttonWrapper}>
         <PrimaryButton
           isLink

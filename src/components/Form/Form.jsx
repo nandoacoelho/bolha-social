@@ -18,9 +18,9 @@ export default function Form({ onsubmit }) {
   }
 
   return (
-    <form name="bolha" enctype="text/plain" onSubmit={handleSubmit}>
+    <form name="bolha" encType="text/plain" onSubmit={handleSubmit}>
       <input
-        for="bolha"
+        htmlFor="bolha"
         value={name}
         onChange={event => {
           event.persist()
@@ -30,7 +30,7 @@ export default function Form({ onsubmit }) {
         placeholder="Nome"
       />
       <input
-        for="bolha"
+        htmlFor="bolha"
         onChange={event => {
           event.persist()
           setEmail(event.target.value)
@@ -41,7 +41,7 @@ export default function Form({ onsubmit }) {
         placeholder="Email"
       />
       <input
-        for="bolha"
+        htmlFor="bolha"
         onChange={event => {
           event.persist()
           setPhone(event.target.value)
@@ -52,7 +52,7 @@ export default function Form({ onsubmit }) {
         placeholder="Telefone"
       />
       <textarea
-        for="bolha"
+        htmlFor="bolha"
         value={message}
         onChange={event => {
           event.persist()

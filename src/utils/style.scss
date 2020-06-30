@@ -1,13 +1,13 @@
 // Custom Styles for Emma
 // Using our variables
 
-@import "../../config/variables";
+@import '../../config/variables';
 
 .container {
   padding-top: 7rem;
 
   @include for-tablet-portrait-up {
-    padding-top: 7.5rem;
+    padding-top: 8.5rem;
   }
 }
 
