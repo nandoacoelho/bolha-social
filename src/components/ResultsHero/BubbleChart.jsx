@@ -14,8 +14,10 @@ class BubbleChart extends Component {
     this.minValue = 10
     this.maxValue = 100
     this.mounted = false
-
-    this.state = { data: [], width: null, height: null }
+    this.forDesktopUp = window.innerWidth >= 1200
+    this.forBigDesktopUp = window.innerWidth >= 1400
+    this.forHugeDesktopUp = window.innerWidth >= 1600
+    this.state = { innerWidth: 0, data: [], width: null, height: null }
 
     this.radiusScale = this.radiusScale.bind(this)
     this.simulatePositions = this.simulatePositions.bind(this)
@@ -54,9 +56,19 @@ class BubbleChart extends Component {
   }
 
   radiusScale = value => {
+    let range = [80, 180]
+
+    if (this.forBigDesktopUp) {
+      range = [90, 190]
+    }
+
+    if (this.forHugeDesktopUp) {
+      range = [100, 200]
+    }
+
     const fx = d3
       .scaleSqrt()
-      .range([100, 200])
+      .range(range)
       .domain([this.minValue, this.maxValue])
 
     return fx(value)
@@ -88,9 +100,9 @@ class BubbleChart extends Component {
       case value < 1:
         return 30
       case value < 3:
-        return 800
-      case value < 3:
-        return 900
+        return 300
+      case value < 5:
+        return 700
       case value < 10:
         return 1000
       default:
@@ -115,11 +127,12 @@ class BubbleChart extends Component {
     const texts = data.map((item, index) => {
       const compensatedPercentage = this.getBalancedPercentage(item.categoryPercentage)
       const scale = this.radiusScale(compensatedPercentage)
-      const fontSize = scale > 80 ? 24 : 10
-      const fontSizePercentage = scale > 80 ? 32 : 20
+      const fontSize = scale > 100 ? 24 : 10
+      const fontSizePercentage = scale > 90 ? 32 : 20
       const percentage = `${item.categoryPercentage.toFixed(2)}%`
       const dy = scale > 80 ? 28 : 18
       const name = item.id
+
       return (
         <g
           key={index}
