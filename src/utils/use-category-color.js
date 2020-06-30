@@ -8,7 +8,7 @@ export default function getColor(gistItem) {
     case 'CIÊNCIA':
     case 'TECNOLOGIA':
     case 'JOGOS':
-    case 'POLITICA':
+    case 'POLÍTICA':
       return '#5fa9ff'
 
     case 'CARROS':
@@ -19,10 +19,11 @@ export default function getColor(gistItem) {
     case 'ESOTERISMO':
     case 'EMPREGOS E CONCURSOS':
     case 'HUMOR':
+    case 'DECORAÇÃO':
       return '#9475d0'
 
-    case 'EDUCACAO':
-    case 'SERIES E FILMES':
+    case 'EDUCAÇÃO':
+    case 'SÉRIES E FILMES':
     case 'POP/ARTE':
     case 'SEXO':
       return '#ff8f79'

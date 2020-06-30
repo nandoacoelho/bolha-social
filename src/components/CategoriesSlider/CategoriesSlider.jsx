@@ -25,10 +25,14 @@ import TVECELEBRIDADES from '../../assets/icons/TVECELEBRIDADES.svg'
 import TWITTER from '../../assets/icons/TWITTER.svg'
 import VIAGENS from '../../assets/icons/VIAGENS.svg'
 import YOUTUBE from '../../assets/icons/YOUTUBE.svg'
+import { getCategoryTitle } from '../../utils/use-category-title'
+import getColor from '../../utils/use-category-color'
+import sortBy from 'lodash/sortBy'
 import styles from './CategoriesSlider.module.scss'
 
 export default class CategoriesSlider extends Component {
   render() {
+    const { historyData } = this.props
     const settings = {
       infinite: true,
       speed: 500,
@@ -176,25 +180,52 @@ export default class CategoriesSlider extends Component {
           'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como viagens, mochilão, LATAM, GOL, AZUL, hotel urbano, Europa, Estados Unidos, América Latina, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
       }
     ]
+    console.log('historyData', historyData)
+    console.log('items', descriptions)
 
     return (
-      <Fragment>
-        <button className={styles.prevArrow} onClick={() => this.slider.slickPrev()}>
-          {'<'}
-        </button>
-        <button className={styles.nextArrow} onClick={() => this.slider.slickNext()}>
-          {'>'}
-        </button>
-        <Slider ref={c => (this.slider = c)} {...settings}>
-          {descriptions.map(item => (
-            <CategoryDescription
-              image={item.image}
-              title={item.title}
-              description={item.description}
-            />
-          ))}
-        </Slider>
-      </Fragment>
+      <div id="bubble-description-wrapper" className={styles.eachBubbleDataWrapper}>
+        <div className={styles.categoriesListWrapper}>
+          <p className={styles.title}>O que tem em cada bolha?</p>
+          <div className={styles.categoriesList}>
+            {historyData &&
+              sortBy(historyData.totalPerCategory, item => item.categoryTitle).map(
+                (category, index) => (
+                  <p
+                    key={`list-${category.categoryTitle}`}
+                    onClick={() => {
+                      this.slider.slickGoTo(index, true)
+                    }}
+                    className={styles.categoryTitleSmall}
+                    style={{
+                      color: getColor(category)
+                    }}
+                  >
+                    {getCategoryTitle(category.categoryTitle)}
+                  </p>
+                )
+              )}
+          </div>
+        </div>
+        <div className={styles.categoriesDetails}>
+          <button className={styles.prevArrow} onClick={() => this.slider.slickPrev()}>
+            {'<'}
+          </button>
+          <button className={styles.nextArrow} onClick={() => this.slider.slickNext()}>
+            {'>'}
+          </button>
+          <Slider ref={c => (this.slider = c)} {...settings}>
+            {sortBy(descriptions, item => item.title).map(item => (
+              <CategoryDescription
+                key={`slider-${item.title}`}
+                image={item.image}
+                title={getCategoryTitle(item.title)}
+                description={item.description}
+              />
+            ))}
+          </Slider>
+        </div>
+      </div>
     )
   }
 }

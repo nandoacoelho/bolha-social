@@ -38,26 +38,19 @@ const Comparative = ({ historyData, generalData }) => {
           </div>
         </div>
       </div>
-      <div id="bubble-description-wrapper" className={styles.eachBubbleDataWrapper}>
-        <div className={styles.categoriesListWrapper}>
-          <p className={styles.title}>O que tem em cada bolha?</p>
-          <div className={styles.categoriesList}>
-            {historyData &&
-              historyData.totalPerCategory.map(category => (
-                <p
-                  className={styles.categoryTitleSmall}
-                  style={{
-                    color: getColor(category)
-                  }}
-                >
-                  {category.categoryTitle}
-                </p>
-              ))}
-          </div>
-        </div>
-        <div className={styles.categoriesDetails}>
-          <CategoriesSlider />
-        </div>
+      <CategoriesSlider historyData={historyData} />
+      <div
+        className={styles.backToTop}
+        onClick={() =>
+          window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+          })
+        }
+      >
+        <hr />
+        <p>Voltar ao topo ^</p>
       </div>
     </Fragment>
   )

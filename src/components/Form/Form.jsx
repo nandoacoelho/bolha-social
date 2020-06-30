@@ -18,7 +18,7 @@ export default function Form({ onsubmit }) {
   }
 
   return (
-    <form name="bolha" encType="text/plain" onSubmit={handleSubmit}>
+    <form className={styles.form} name="bolha" encType="text/plain" onSubmit={handleSubmit}>
       <input
         htmlFor="bolha"
         value={name}

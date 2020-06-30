@@ -8,10 +8,16 @@
   margin-bottom: 20px;
   padding-left: 20px;
   font-size: 1rem;
-  height: 50px;
+  height: 40px;
 }
 
 .inputTextarea {
-  height: 200px;
+  height: 145px;
   padding-top: 30px;
+}
+
+.form {
+  @include for-desktop-up {
+    width: 440px;
+  }
 }

@@ -2,13 +2,13 @@ import React, { Component } from 'react'
 
 import BubbleChart from './BubbleChart'
 import { ResponsiveBubble } from '@nivo/circle-packing'
+import { getCategoryTitle } from '../../utils/use-category-title'
 import getColor from '../../utils/use-category-color'
 import styles from './ResultsHero.module.scss'
 
 class ResultsHero extends Component {
   render() {
     const { historyGist } = this.props
-    const data = [{ name: 'Facebook', percentage: '2%', v: 200 }]
     const items = historyGist.totalPerCategory
       .filter(gistItem => gistItem.categoryPercentage > 0.2)
       .map(gistItem => ({
@@ -20,7 +20,7 @@ class ResultsHero extends Component {
         occurances: gistItem.categoryOccurances,
         color: getColor(gistItem),
         name: `${gistItem.categoryTitle}\r\n\n${gistItem.categoryPercentage.toFixed(2)}%`,
-        id: gistItem.categoryTitle
+        id: getCategoryTitle(gistItem.categoryTitle)
       }))
 
     return (

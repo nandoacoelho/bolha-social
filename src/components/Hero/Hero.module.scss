@@ -76,9 +76,9 @@
 }
 
 .main {
-  @include for-desktop-up {
+  @include for-tablet-portrait-up {
+    padding: calc(139px + 10rem) 12rem 0 6rem;
     max-width: 50vw;
-    padding: 10rem 0 6rem 14rem;
   }
 
   @include for-big-desktop-up {
