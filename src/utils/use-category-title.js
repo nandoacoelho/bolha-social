@@ -1,7 +1,7 @@
 export function getCategoryTitle(title) {
   switch (title) {
     case 'ALIMENTAÇÃO E SAÚDE':
-      return 'ALIMENTÇÃO'
+      return 'ALIMENTAÇÃO'
     default:
       return title
   }

@@ -180,6 +180,10 @@ export default class CategoriesSlider extends Component {
           'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como viagens, mochilão, LATAM, GOL, AZUL, hotel urbano, Europa, Estados Unidos, América Latina, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
       }
     ]
+
+    const sortedHistoryData =
+      historyData && sortBy(historyData.totalPerCategory, item => item.categoryTitle)
+    const sortedDescriptions = sortBy(descriptions, item => item.title)
     console.log('historyData', historyData)
     console.log('items', descriptions)
 
@@ -188,23 +192,23 @@ export default class CategoriesSlider extends Component {
         <div className={styles.categoriesListWrapper}>
           <p className={styles.title}>O que tem em cada bolha?</p>
           <div className={styles.categoriesList}>
-            {historyData &&
-              sortBy(historyData.totalPerCategory, item => item.categoryTitle).map(
-                (category, index) => (
-                  <p
-                    key={`list-${category.categoryTitle}`}
-                    onClick={() => {
-                      this.slider.slickGoTo(index, true)
-                    }}
-                    className={styles.categoryTitleSmall}
-                    style={{
-                      color: getColor(category)
-                    }}
-                  >
-                    {getCategoryTitle(category.categoryTitle)}
-                  </p>
-                )
-              )}
+            {sortedHistoryData.map((category, index) => (
+              <p
+                key={`list-${category.categoryTitle}`}
+                onClick={() => {
+                  this.slider.slickGoTo(
+                    sortedDescriptions.findIndex(item => item.title === category.categoryTitle),
+                    true
+                  )
+                }}
+                className={styles.categoryTitleSmall}
+                style={{
+                  color: getColor(category)
+                }}
+              >
+                {getCategoryTitle(category.categoryTitle)}
+              </p>
+            ))}
           </div>
         </div>
         <div className={styles.categoriesDetails}>
@@ -215,7 +219,7 @@ export default class CategoriesSlider extends Component {
             {'>'}
           </button>
           <Slider ref={c => (this.slider = c)} {...settings}>
-            {sortBy(descriptions, item => item.title).map(item => (
+            {sortedDescriptions.map(item => (
               <CategoryDescription
                 key={`slider-${item.title}`}
                 image={item.image}
