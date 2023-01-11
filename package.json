@@ -33,7 +33,7 @@
     "gatsby-remark-images": "^1.5.65",
     "gatsby-remark-responsive-iframe": "^1.4.19",
     "gatsby-source-filesystem": "^1.5.38",
-    "gatsby-transformer-remark": "^1.7.41",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^1.6.26",
     "react": "16.8.0",
     "react-burger-menu": "^2.5.0",
